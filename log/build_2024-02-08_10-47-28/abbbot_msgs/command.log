@@ -1,0 +1,6 @@
+Invoking command in '/home/mihir/abb_bot_ws/build/abbbot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mihir/abb_bot_ws/src/abbbot_msgs -DCMAKE_INSTALL_PREFIX=/home/mihir/abb_bot_ws/install/abbbot_msgs
+Invoked command in '/home/mihir/abb_bot_ws/build/abbbot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mihir/abb_bot_ws/src/abbbot_msgs -DCMAKE_INSTALL_PREFIX=/home/mihir/abb_bot_ws/install/abbbot_msgs
+Invoking command in '/home/mihir/abb_bot_ws/build/abbbot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/abbbot_msgs -- -j8 -l8
+Invoked command in '/home/mihir/abb_bot_ws/build/abbbot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/abbbot_msgs -- -j8 -l8
+Invoking command in '/home/mihir/abb_bot_ws/build/abbbot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mihir/abb_bot_ws/build/abbbot_msgs
+Invoked command in '/home/mihir/abb_bot_ws/build/abbbot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mihir/abb_bot_ws/build/abbbot_msgs

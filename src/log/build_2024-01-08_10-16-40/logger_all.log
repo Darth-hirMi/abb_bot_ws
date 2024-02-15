@@ -1,0 +1,190 @@
+[0.950s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.950s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb9bb0d14b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb9bb4ebfd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb9bb4ebfd0>>)
+[0.992s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.992s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.992s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.992s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.992s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.992s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.992s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mihir/abb_bot_ws/src'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.992s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(bot_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(bot_controller) by extension 'ignore'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(bot_controller) by extension 'ignore_ament_install'
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(bot_controller) by extensions ['colcon_pkg']
+[1.001s] Level 1:colcon.colcon_core.package_identification:_identify(bot_controller) by extension 'colcon_pkg'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(bot_controller) by extensions ['colcon_meta']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(bot_controller) by extension 'colcon_meta'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(bot_controller) by extensions ['ros']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(bot_controller) by extension 'ros'
+[1.003s] DEBUG:colcon.colcon_core.package_identification:Package 'bot_controller' with type 'ros.ament_cmake' and name 'bot_controller'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(bot_description) by extensions ['ignore', 'ignore_ament_install']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(bot_description) by extension 'ignore'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(bot_description) by extension 'ignore_ament_install'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(bot_description) by extensions ['colcon_pkg']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(bot_description) by extension 'colcon_pkg'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(bot_description) by extensions ['colcon_meta']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(bot_description) by extension 'colcon_meta'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(bot_description) by extensions ['ros']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(bot_description) by extension 'ros'
+[1.004s] DEBUG:colcon.colcon_core.package_identification:Package 'bot_description' with type 'ros.ament_cmake' and name 'bot_description'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.005s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.005s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.005s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.005s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.005s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.005s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.096s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.126s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 360 installed packages in /opt/ros/humble
+[1.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.225s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'cmake_args' from command line to 'None'
+[1.225s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'cmake_target' from command line to 'None'
+[1.225s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.225s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[1.225s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[1.225s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[1.225s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[1.225s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[1.226s] Level 5:colcon.colcon_core.verb:set package 'bot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.226s] DEBUG:colcon.colcon_core.verb:Building package 'bot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mihir/abb_bot_ws/src/build/bot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mihir/abb_bot_ws/src/install/bot_controller', 'merge_install': False, 'path': '/home/mihir/abb_bot_ws/src/bot_controller', 'symlink_install': False, 'test_result_base': None}
+[1.239s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'cmake_args' from command line to 'None'
+[1.239s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'cmake_target' from command line to 'None'
+[1.239s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.239s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.239s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.239s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.239s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.239s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.239s] Level 5:colcon.colcon_core.verb:set package 'bot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.239s] DEBUG:colcon.colcon_core.verb:Building package 'bot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mihir/abb_bot_ws/src/build/bot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mihir/abb_bot_ws/src/install/bot_description', 'merge_install': False, 'path': '/home/mihir/abb_bot_ws/src/bot_description', 'symlink_install': False, 'test_result_base': None}
+[1.252s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.266s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.267s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mihir/abb_bot_ws/src/bot_controller' with build type 'ament_cmake'
+[1.267s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mihir/abb_bot_ws/src/bot_controller'
+[1.291s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.291s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.291s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.323s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mihir/abb_bot_ws/src/bot_description' with build type 'ament_cmake'
+[1.323s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mihir/abb_bot_ws/src/bot_description'
+[1.342s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihir/abb_bot_ws/src/build/bot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mihir/abb_bot_ws/src/bot_controller -DCMAKE_INSTALL_PREFIX=/home/mihir/abb_bot_ws/src/install/bot_controller
+[1.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihir/abb_bot_ws/src/build/bot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mihir/abb_bot_ws/src/bot_description -DCMAKE_INSTALL_PREFIX=/home/mihir/abb_bot_ws/src/install/bot_description
+[2.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mihir/abb_bot_ws/src/build/bot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mihir/abb_bot_ws/src/bot_controller -DCMAKE_INSTALL_PREFIX=/home/mihir/abb_bot_ws/src/install/bot_controller
+[2.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihir/abb_bot_ws/src/build/bot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/src/build/bot_controller -- -j8 -l8
+[2.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mihir/abb_bot_ws/src/build/bot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mihir/abb_bot_ws/src/bot_description -DCMAKE_INSTALL_PREFIX=/home/mihir/abb_bot_ws/src/install/bot_description
+[2.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihir/abb_bot_ws/src/build/bot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/src/build/bot_description -- -j8 -l8
+[2.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mihir/abb_bot_ws/src/build/bot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/src/build/bot_controller -- -j8 -l8
+[2.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihir/abb_bot_ws/src/build/bot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mihir/abb_bot_ws/src/build/bot_controller
+[2.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mihir/abb_bot_ws/src/build/bot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/src/build/bot_description -- -j8 -l8
+[2.145s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_controller)
+[2.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mihir/abb_bot_ws/src/build/bot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mihir/abb_bot_ws/src/build/bot_controller
+[2.165s] Level 1:colcon.colcon_core.environment:checking '/home/mihir/abb_bot_ws/src/install/bot_controller' for CMake module files
+[2.165s] Level 1:colcon.colcon_core.environment:checking '/home/mihir/abb_bot_ws/src/install/bot_controller' for CMake config files
+[2.166s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_controller', 'cmake_prefix_path')
+[2.180s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/hook/cmake_prefix_path.ps1'
+[2.181s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/hook/cmake_prefix_path.dsv'
+[2.181s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/hook/cmake_prefix_path.sh'
+[2.182s] Level 1:colcon.colcon_core.environment:checking '/home/mihir/abb_bot_ws/src/install/bot_controller/bin'
+[2.182s] Level 1:colcon.colcon_core.environment:checking '/home/mihir/abb_bot_ws/src/install/bot_controller/lib/pkgconfig/bot_controller.pc'
+[2.182s] Level 1:colcon.colcon_core.environment:checking '/home/mihir/abb_bot_ws/src/install/bot_controller/lib/python3.10/site-packages'
+[2.182s] Level 1:colcon.colcon_core.environment:checking '/home/mihir/abb_bot_ws/src/install/bot_controller/bin'
+[2.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/package.ps1'
+[2.198s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/package.dsv'
+[2.198s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/package.sh'
+[2.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/package.bash'
+[2.199s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/package.zsh'
+[2.200s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mihir/abb_bot_ws/src/install/bot_controller/share/colcon-core/packages/bot_controller)
+[2.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mihir/abb_bot_ws/src/build/bot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mihir/abb_bot_ws/src/build/bot_description
+[2.235s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_controller)
+[2.254s] Level 1:colcon.colcon_core.environment:checking '/home/mihir/abb_bot_ws/src/install/bot_controller' for CMake module files
+[2.257s] Level 1:colcon.colcon_core.environment:checking '/home/mihir/abb_bot_ws/src/install/bot_controller' for CMake config files
+[2.257s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_controller', 'cmake_prefix_path')
+[2.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/hook/cmake_prefix_path.ps1'
+[2.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/hook/cmake_prefix_path.dsv'
+[2.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/hook/cmake_prefix_path.sh'
+[2.279s] Level 1:colcon.colcon_core.environment:checking '/home/mihir/abb_bot_ws/src/install/bot_controller/bin'
+[2.279s] Level 1:colcon.colcon_core.environment:checking '/home/mihir/abb_bot_ws/src/install/bot_controller/lib/pkgconfig/bot_controller.pc'
+[2.279s] Level 1:colcon.colcon_core.environment:checking '/home/mihir/abb_bot_ws/src/install/bot_controller/lib/python3.10/site-packages'
+[2.280s] Level 1:colcon.colcon_core.environment:checking '/home/mihir/abb_bot_ws/src/install/bot_controller/bin'
+[2.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/package.ps1'
+[2.303s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/package.dsv'
+[2.303s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/package.sh'
+[2.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/package.bash'
+[2.304s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/package.zsh'
+[2.305s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mihir/abb_bot_ws/src/install/bot_controller/share/colcon-core/packages/bot_controller)
+[2.306s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_description)
+[2.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mihir/abb_bot_ws/src/build/bot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mihir/abb_bot_ws/src/build/bot_description
+[2.322s] Level 1:colcon.colcon_core.environment:checking '/home/mihir/abb_bot_ws/src/install/bot_description' for CMake module files
+[2.322s] Level 1:colcon.colcon_core.environment:checking '/home/mihir/abb_bot_ws/src/install/bot_description' for CMake config files
+[2.322s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_description', 'cmake_prefix_path')
+[2.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihir/abb_bot_ws/src/install/bot_description/share/bot_description/hook/cmake_prefix_path.ps1'
+[2.338s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihir/abb_bot_ws/src/install/bot_description/share/bot_description/hook/cmake_prefix_path.dsv'
+[2.338s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihir/abb_bot_ws/src/install/bot_description/share/bot_description/hook/cmake_prefix_path.sh'
+[2.339s] Level 1:colcon.colcon_core.environment:checking '/home/mihir/abb_bot_ws/src/install/bot_description/bin'
+[2.339s] Level 1:colcon.colcon_core.environment:checking '/home/mihir/abb_bot_ws/src/install/bot_description/lib/pkgconfig/bot_description.pc'
+[2.339s] Level 1:colcon.colcon_core.environment:checking '/home/mihir/abb_bot_ws/src/install/bot_description/lib/python3.10/site-packages'
+[2.339s] Level 1:colcon.colcon_core.environment:checking '/home/mihir/abb_bot_ws/src/install/bot_description/bin'
+[2.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihir/abb_bot_ws/src/install/bot_description/share/bot_description/package.ps1'
+[2.354s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mihir/abb_bot_ws/src/install/bot_description/share/bot_description/package.dsv'
+[2.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihir/abb_bot_ws/src/install/bot_description/share/bot_description/package.sh'
+[2.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihir/abb_bot_ws/src/install/bot_description/share/bot_description/package.bash'
+[2.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihir/abb_bot_ws/src/install/bot_description/share/bot_description/package.zsh'
+[2.355s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mihir/abb_bot_ws/src/install/bot_description/share/colcon-core/packages/bot_description)
+[2.389s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bot_description)
+[2.405s] Level 1:colcon.colcon_core.environment:checking '/home/mihir/abb_bot_ws/src/install/bot_description' for CMake module files
+[2.406s] Level 1:colcon.colcon_core.environment:checking '/home/mihir/abb_bot_ws/src/install/bot_description' for CMake config files
+[2.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('bot_description', 'cmake_prefix_path')
+[2.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihir/abb_bot_ws/src/install/bot_description/share/bot_description/hook/cmake_prefix_path.ps1'
+[2.420s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mihir/abb_bot_ws/src/install/bot_description/share/bot_description/hook/cmake_prefix_path.dsv'
+[2.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mihir/abb_bot_ws/src/install/bot_description/share/bot_description/hook/cmake_prefix_path.sh'
+[2.421s] Level 1:colcon.colcon_core.environment:checking '/home/mihir/abb_bot_ws/src/install/bot_description/bin'
+[2.421s] Level 1:colcon.colcon_core.environment:checking '/home/mihir/abb_bot_ws/src/install/bot_description/lib/pkgconfig/bot_description.pc'
+[2.421s] Level 1:colcon.colcon_core.environment:checking '/home/mihir/abb_bot_ws/src/install/bot_description/lib/python3.10/site-packages'
+[2.421s] Level 1:colcon.colcon_core.environment:checking '/home/mihir/abb_bot_ws/src/install/bot_description/bin'
+[2.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihir/abb_bot_ws/src/install/bot_description/share/bot_description/package.ps1'
+[2.436s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mihir/abb_bot_ws/src/install/bot_description/share/bot_description/package.dsv'
+[2.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihir/abb_bot_ws/src/install/bot_description/share/bot_description/package.sh'
+[2.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihir/abb_bot_ws/src/install/bot_description/share/bot_description/package.bash'
+[2.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/mihir/abb_bot_ws/src/install/bot_description/share/bot_description/package.zsh'
+[2.437s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mihir/abb_bot_ws/src/install/bot_description/share/colcon-core/packages/bot_description)
+[2.438s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.438s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.438s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.438s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.459s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.459s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.459s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.479s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.498s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mihir/abb_bot_ws/src/install/local_setup.ps1'
+[2.499s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mihir/abb_bot_ws/src/install/_local_setup_util_ps1.py'
+[2.501s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mihir/abb_bot_ws/src/install/setup.ps1'
+[2.518s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mihir/abb_bot_ws/src/install/local_setup.sh'
+[2.519s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mihir/abb_bot_ws/src/install/_local_setup_util_sh.py'
+[2.519s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mihir/abb_bot_ws/src/install/setup.sh'
+[2.535s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mihir/abb_bot_ws/src/install/local_setup.bash'
+[2.535s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mihir/abb_bot_ws/src/install/setup.bash'
+[2.550s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mihir/abb_bot_ws/src/install/local_setup.zsh'
+[2.551s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mihir/abb_bot_ws/src/install/setup.zsh'

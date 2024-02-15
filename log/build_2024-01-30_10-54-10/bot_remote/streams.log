@@ -1,0 +1,18 @@
+[0.063s] Invoking command in '/home/mihir/abb_bot_ws/build/bot_remote': /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/bot_remote -- -j8 -l8
+[0.079s] [33mCMake Warning (dev) in CMakeLists.txt:
+[0.081s]   No project() command is present.  The top-level CMakeLists.txt file must
+[0.082s]   contain a literal, direct call to the project() command.  Add a line of
+[0.083s]   code such as
+[0.083s] 
+[0.083s]     project(ProjectName)
+[0.083s] 
+[0.083s]   near the top of the file, but after cmake_minimum_required().
+[0.083s] 
+[0.083s]   CMake is pretending there is a "project(Project)" command on the first
+[0.083s]   line.
+[0.084s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.084s] [0m
+[0.084s] -- Configuring done
+[0.085s] -- Generating done
+[0.087s] -- Build files have been written to: /home/mihir/abb_bot_ws/build/bot_remote
+[0.141s] Invoked command in '/home/mihir/abb_bot_ws/build/bot_remote' returned '0': /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/bot_remote -- -j8 -l8

@@ -1,0 +1,30 @@
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mihir/abb_bot_ws/build/bot_description
+-- Install configuration: ""
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes/Base_link.STL
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes/Link_5.STL
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes/Link_3.STL
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes/Link_1.STL
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes/Link_2.STL
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes/Link_6.STL
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes/Link_4.STL
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes/End_effector.STL
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/urdf
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/urdf/bot.urdf.xacro
+-- Installing: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/launch
+-- Installing: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/launch/display.launch.py
+-- Installing: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/launch/gazebo.launch.py
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find "/home/mihir/abb_bot_ws/src/bot_description/rviz":
+  No such file or directory.
+
+[0m

@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target task_server[0m
+[ 50%] Built target task_server_node
+[ 75%] [32mBuilding CXX object CMakeFiles/task_server.dir/src/task_server.cpp.o[0m

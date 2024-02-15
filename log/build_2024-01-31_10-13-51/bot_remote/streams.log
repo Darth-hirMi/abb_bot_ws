@@ -1,0 +1,20 @@
+[0.209s] Invoking command in '/home/mihir/abb_bot_ws/build/bot_remote': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/bot_remote -- -j8 -l8
+[0.578s] Invoked command in '/home/mihir/abb_bot_ws/build/bot_remote' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/bot_remote -- -j8 -l8
+[1.269s] Invoking command in '/home/mihir/abb_bot_ws/build/bot_remote': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mihir/abb_bot_ws/build/bot_remote
+[1.421s] -- Install configuration: ""
+[1.421s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_remote/share/ament_index/resource_index/package_run_dependencies/bot_remote
+[1.422s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_remote/share/ament_index/resource_index/parent_prefix_path/bot_remote
+[1.422s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_remote/share/bot_remote/environment/ament_prefix_path.sh
+[1.422s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_remote/share/bot_remote/environment/ament_prefix_path.dsv
+[1.422s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_remote/share/bot_remote/environment/path.sh
+[1.422s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_remote/share/bot_remote/environment/path.dsv
+[1.423s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_remote/share/bot_remote/local_setup.bash
+[1.423s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_remote/share/bot_remote/local_setup.sh
+[1.423s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_remote/share/bot_remote/local_setup.zsh
+[1.423s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_remote/share/bot_remote/local_setup.dsv
+[1.423s] -- Installing: /home/mihir/abb_bot_ws/install/bot_remote/share/bot_remote/package.dsv
+[1.423s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_remote/share/ament_index/resource_index/packages/bot_remote
+[1.423s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_remote/share/bot_remote/cmake/bot_remoteConfig.cmake
+[1.424s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_remote/share/bot_remote/cmake/bot_remoteConfig-version.cmake
+[1.424s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_remote/share/bot_remote/package.xml
+[1.653s] Invoked command in '/home/mihir/abb_bot_ws/build/bot_remote' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mihir/abb_bot_ws/build/bot_remote

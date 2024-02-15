@@ -1,0 +1,41 @@
+[0.087s] Invoking command in '/home/mihir/abb_bot_ws/build/bot_remote': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/bot_remote -- -j8 -l8
+[0.132s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.497s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.577s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.586s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.605s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.634s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.673s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.837s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.840s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.034s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.085s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.166s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.186s] -- Looking for pthread.h
+[1.327s] -- Looking for pthread.h - found
+[1.328s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.461s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.463s] -- Found Threads: TRUE  
+[1.697s] -- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.805s] -- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.889s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[1.889s]   By not providing "Findbot_msgs.cmake" in CMAKE_MODULE_PATH this project has
+[1.889s]   asked CMake to find a package configuration file provided by "bot_msgs",
+[1.889s]   but CMake did not find one.
+[1.889s] 
+[1.889s]   Could not find a package configuration file provided by "bot_msgs" with any
+[1.890s]   of the following names:
+[1.890s] 
+[1.890s]     bot_msgsConfig.cmake
+[1.890s]     bot_msgs-config.cmake
+[1.890s] 
+[1.890s]   Add the installation prefix of "bot_msgs" to CMAKE_PREFIX_PATH or set
+[1.890s]   "bot_msgs_DIR" to a directory containing one of the above files.  If
+[1.890s]   "bot_msgs" provides a separate development package or SDK, be sure it has
+[1.890s]   been installed.
+[1.890s] 
+[1.890s] -- Configuring incomplete, errors occurred!
+[1.890s] See also "/home/mihir/abb_bot_ws/build/bot_remote/CMakeFiles/CMakeOutput.log".
+[1.890s] [0m
+[1.900s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.902s] Invoked command in '/home/mihir/abb_bot_ws/build/bot_remote' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/bot_remote -- -j8 -l8

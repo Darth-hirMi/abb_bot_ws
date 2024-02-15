@@ -1,0 +1,5 @@
+[0.120s] Invoking command in '/home/mihir/abb_bot_ws/build/bot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/bot_msgs -- -j8 -l8
+[0.140s] [0mCMake Error: The source directory "/home/mihir/abb_bot_ws/src/bot_msgs" does not exist.
+[0.141s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.141s] gmake: *** [Makefile:747: cmake_check_build_system] Error 1
+[0.149s] Invoked command in '/home/mihir/abb_bot_ws/build/bot_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/bot_msgs -- -j8 -l8

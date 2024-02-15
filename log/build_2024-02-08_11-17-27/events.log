@@ -1,0 +1,951 @@
+[0.000000] (-) TimerEvent: {}
+[0.000220] (abbbot_msgs) JobQueued: {'identifier': 'abbbot_msgs', 'dependencies': OrderedDict()}
+[0.000391] (bot_controller) JobQueued: {'identifier': 'bot_controller', 'dependencies': OrderedDict()}
+[0.000719] (bot_description) JobQueued: {'identifier': 'bot_description', 'dependencies': OrderedDict()}
+[0.000856] (bot_moveit) JobQueued: {'identifier': 'bot_moveit', 'dependencies': OrderedDict()}
+[0.000959] (bot_msgs) JobQueued: {'identifier': 'bot_msgs', 'dependencies': OrderedDict()}
+[0.000999] (bot_remote) JobQueued: {'identifier': 'bot_remote', 'dependencies': OrderedDict()}
+[0.001072] (abbbot_msgs) JobStarted: {'identifier': 'abbbot_msgs'}
+[0.053393] (bot_controller) JobStarted: {'identifier': 'bot_controller'}
+[0.099735] (-) TimerEvent: {}
+[0.103826] (bot_description) JobStarted: {'identifier': 'bot_description'}
+[0.161971] (bot_moveit) JobStarted: {'identifier': 'bot_moveit'}
+[0.199893] (-) TimerEvent: {}
+[0.216471] (bot_msgs) JobStarted: {'identifier': 'bot_msgs'}
+[0.263625] (bot_remote) JobStarted: {'identifier': 'bot_remote'}
+[0.300261] (-) TimerEvent: {}
+[0.315532] (abbbot_msgs) JobProgress: {'identifier': 'abbbot_msgs', 'progress': 'cmake'}
+[0.316745] (abbbot_msgs) JobProgress: {'identifier': 'abbbot_msgs', 'progress': 'build'}
+[0.316809] (abbbot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mihir/abb_bot_ws/build/abbbot_msgs', '--', '-j8', '-l8'], 'cwd': '/home/mihir/abb_bot_ws/build/abbbot_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mihir'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihir'), ('OLDPWD', '/home/mihir'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1730'), ('SYSTEMD_EXEC_PID', '2237'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11060'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mihir'), ('JOURNAL_STREAM', '8:36123'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/mihir/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihir-Inspiron-7501:@/tmp/.ICE-unix/2210,unix/mihir-Inspiron-7501:/tmp/.ICE-unix/2210'), ('INVOCATION_ID', 'dd797af2c3354a5da4f7063453ad0f13'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RWM_IMPLEMENTATION', 'rwm_cyclonedds_cpp'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:09043c08-a41c-4896-9f2d-2c3c88dbe2f4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihir/abb_bot_ws/build/abbbot_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.319400] (bot_controller) JobProgress: {'identifier': 'bot_controller', 'progress': 'cmake'}
+[0.320091] (bot_controller) JobProgress: {'identifier': 'bot_controller', 'progress': 'build'}
+[0.320325] (bot_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mihir/abb_bot_ws/build/bot_controller', '--', '-j8', '-l8'], 'cwd': '/home/mihir/abb_bot_ws/build/bot_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mihir'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihir'), ('OLDPWD', '/home/mihir'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1730'), ('SYSTEMD_EXEC_PID', '2237'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11060'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mihir'), ('JOURNAL_STREAM', '8:36123'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/mihir/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihir-Inspiron-7501:@/tmp/.ICE-unix/2210,unix/mihir-Inspiron-7501:/tmp/.ICE-unix/2210'), ('INVOCATION_ID', 'dd797af2c3354a5da4f7063453ad0f13'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RWM_IMPLEMENTATION', 'rwm_cyclonedds_cpp'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:09043c08-a41c-4896-9f2d-2c3c88dbe2f4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihir/abb_bot_ws/build/bot_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.323389] (bot_description) JobProgress: {'identifier': 'bot_description', 'progress': 'cmake'}
+[0.324520] (bot_description) JobProgress: {'identifier': 'bot_description', 'progress': 'build'}
+[0.325160] (bot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mihir/abb_bot_ws/build/bot_description', '--', '-j8', '-l8'], 'cwd': '/home/mihir/abb_bot_ws/build/bot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mihir'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihir'), ('OLDPWD', '/home/mihir'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1730'), ('SYSTEMD_EXEC_PID', '2237'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11060'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mihir'), ('JOURNAL_STREAM', '8:36123'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/mihir/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihir-Inspiron-7501:@/tmp/.ICE-unix/2210,unix/mihir-Inspiron-7501:/tmp/.ICE-unix/2210'), ('INVOCATION_ID', 'dd797af2c3354a5da4f7063453ad0f13'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RWM_IMPLEMENTATION', 'rwm_cyclonedds_cpp'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:09043c08-a41c-4896-9f2d-2c3c88dbe2f4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihir/abb_bot_ws/build/bot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.327971] (bot_moveit) JobProgress: {'identifier': 'bot_moveit', 'progress': 'cmake'}
+[0.328336] (bot_moveit) JobProgress: {'identifier': 'bot_moveit', 'progress': 'build'}
+[0.328696] (bot_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mihir/abb_bot_ws/build/bot_moveit', '--', '-j8', '-l8'], 'cwd': '/home/mihir/abb_bot_ws/build/bot_moveit', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mihir'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihir'), ('OLDPWD', '/home/mihir'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1730'), ('SYSTEMD_EXEC_PID', '2237'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11060'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mihir'), ('JOURNAL_STREAM', '8:36123'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/mihir/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihir-Inspiron-7501:@/tmp/.ICE-unix/2210,unix/mihir-Inspiron-7501:/tmp/.ICE-unix/2210'), ('INVOCATION_ID', 'dd797af2c3354a5da4f7063453ad0f13'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RWM_IMPLEMENTATION', 'rwm_cyclonedds_cpp'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:09043c08-a41c-4896-9f2d-2c3c88dbe2f4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihir/abb_bot_ws/build/bot_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.332211] (bot_msgs) JobProgress: {'identifier': 'bot_msgs', 'progress': 'cmake'}
+[0.333040] (bot_msgs) JobProgress: {'identifier': 'bot_msgs', 'progress': 'build'}
+[0.333739] (bot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mihir/abb_bot_ws/build/bot_msgs', '--', '-j8', '-l8'], 'cwd': '/home/mihir/abb_bot_ws/build/bot_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mihir'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihir'), ('OLDPWD', '/home/mihir'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1730'), ('SYSTEMD_EXEC_PID', '2237'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11060'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mihir'), ('JOURNAL_STREAM', '8:36123'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/mihir/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihir-Inspiron-7501:@/tmp/.ICE-unix/2210,unix/mihir-Inspiron-7501:/tmp/.ICE-unix/2210'), ('INVOCATION_ID', 'dd797af2c3354a5da4f7063453ad0f13'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RWM_IMPLEMENTATION', 'rwm_cyclonedds_cpp'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:09043c08-a41c-4896-9f2d-2c3c88dbe2f4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihir/abb_bot_ws/build/bot_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.340332] (bot_remote) JobProgress: {'identifier': 'bot_remote', 'progress': 'cmake'}
+[0.341781] (bot_remote) JobProgress: {'identifier': 'bot_remote', 'progress': 'build'}
+[0.342636] (bot_remote) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mihir/abb_bot_ws/build/bot_remote', '--', '-j8', '-l8'], 'cwd': '/home/mihir/abb_bot_ws/build/bot_remote', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mihir'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihir'), ('OLDPWD', '/home/mihir'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1730'), ('SYSTEMD_EXEC_PID', '2237'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11060'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mihir'), ('JOURNAL_STREAM', '8:36123'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/mihir/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihir-Inspiron-7501:@/tmp/.ICE-unix/2210,unix/mihir-Inspiron-7501:/tmp/.ICE-unix/2210'), ('INVOCATION_ID', 'dd797af2c3354a5da4f7063453ad0f13'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RWM_IMPLEMENTATION', 'rwm_cyclonedds_cpp'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:09043c08-a41c-4896-9f2d-2c3c88dbe2f4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihir/abb_bot_ws/build/bot_remote'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.349068] (abbbot_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.374827] (bot_controller) CommandEnded: {'returncode': 0}
+[0.377580] (bot_description) CommandEnded: {'returncode': 0}
+[0.388371] (bot_moveit) CommandEnded: {'returncode': 0}
+[0.400783] (-) TimerEvent: {}
+[0.413916] (bot_controller) JobProgress: {'identifier': 'bot_controller', 'progress': 'install'}
+[0.417044] (bot_msgs) StdoutLine: {'line': b'[  3%] Built target bot_msgs__cpp\n'}
+[0.421079] (bot_remote) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target task_server\x1b[0m\n'}
+[0.436971] (bot_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mihir/abb_bot_ws/build/bot_controller'], 'cwd': '/home/mihir/abb_bot_ws/build/bot_controller', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mihir'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihir'), ('OLDPWD', '/home/mihir'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1730'), ('SYSTEMD_EXEC_PID', '2237'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11060'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mihir'), ('JOURNAL_STREAM', '8:36123'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/mihir/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihir-Inspiron-7501:@/tmp/.ICE-unix/2210,unix/mihir-Inspiron-7501:/tmp/.ICE-unix/2210'), ('INVOCATION_ID', 'dd797af2c3354a5da4f7063453ad0f13'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RWM_IMPLEMENTATION', 'rwm_cyclonedds_cpp'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:09043c08-a41c-4896-9f2d-2c3c88dbe2f4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihir/abb_bot_ws/build/bot_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.437831] (bot_msgs) StdoutLine: {'line': b'[ 12%] Built target bot_msgs__rosidl_generator_c\n'}
+[0.438007] (bot_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_bot_msgs\n'}
+[0.441403] (bot_description) JobProgress: {'identifier': 'bot_description', 'progress': 'install'}
+[0.441530] (bot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mihir/abb_bot_ws/build/bot_description'], 'cwd': '/home/mihir/abb_bot_ws/build/bot_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mihir'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihir'), ('OLDPWD', '/home/mihir'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1730'), ('SYSTEMD_EXEC_PID', '2237'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11060'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mihir'), ('JOURNAL_STREAM', '8:36123'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/mihir/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihir-Inspiron-7501:@/tmp/.ICE-unix/2210,unix/mihir-Inspiron-7501:/tmp/.ICE-unix/2210'), ('INVOCATION_ID', 'dd797af2c3354a5da4f7063453ad0f13'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RWM_IMPLEMENTATION', 'rwm_cyclonedds_cpp'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:09043c08-a41c-4896-9f2d-2c3c88dbe2f4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihir/abb_bot_ws/build/bot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.452533] (bot_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.453201] (bot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/config\n'}
+[0.453409] (bot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/config/bot_controllers.yaml\n'}
+[0.462564] (bot_moveit) JobProgress: {'identifier': 'bot_moveit', 'progress': 'install'}
+[0.462672] (bot_moveit) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mihir/abb_bot_ws/build/bot_moveit'], 'cwd': '/home/mihir/abb_bot_ws/build/bot_moveit', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mihir'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihir'), ('OLDPWD', '/home/mihir'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1730'), ('SYSTEMD_EXEC_PID', '2237'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11060'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mihir'), ('JOURNAL_STREAM', '8:36123'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/mihir/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihir-Inspiron-7501:@/tmp/.ICE-unix/2210,unix/mihir-Inspiron-7501:/tmp/.ICE-unix/2210'), ('INVOCATION_ID', 'dd797af2c3354a5da4f7063453ad0f13'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RWM_IMPLEMENTATION', 'rwm_cyclonedds_cpp'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:09043c08-a41c-4896-9f2d-2c3c88dbe2f4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihir/abb_bot_ws/build/bot_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.463481] (bot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/launch\n'}
+[0.463663] (bot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/launch/controller.launch.py\n'}
+[0.463804] (bot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/ament_index/resource_index/package_run_dependencies/bot_controller\n'}
+[0.463929] (bot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/ament_index/resource_index/parent_prefix_path/bot_controller\n'}
+[0.464053] (bot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/environment/ament_prefix_path.sh\n'}
+[0.464175] (bot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/environment/ament_prefix_path.dsv\n'}
+[0.464294] (bot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/environment/path.sh\n'}
+[0.464415] (bot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/environment/path.dsv\n'}
+[0.464538] (bot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/local_setup.bash\n'}
+[0.464659] (bot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/local_setup.sh\n'}
+[0.464779] (bot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/local_setup.zsh\n'}
+[0.464901] (bot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/local_setup.dsv\n'}
+[0.465021] (bot_controller) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/package.dsv\n'}
+[0.465219] (bot_remote) StdoutLine: {'line': b'[ 50%] Built target task_server_node\n'}
+[0.465896] (bot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/ament_index/resource_index/packages/bot_controller\n'}
+[0.466065] (bot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/cmake/bot_controllerConfig.cmake\n'}
+[0.466194] (bot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/cmake/bot_controllerConfig-version.cmake\n'}
+[0.466320] (bot_controller) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/package.xml\n'}
+[0.467829] (bot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.468548] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes\n'}
+[0.475116] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes/Base_link.STL\n'}
+[0.475275] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes/Link_5.STL\n'}
+[0.475404] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes/Link_3.STL\n'}
+[0.475528] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes/Link_1.STL\n'}
+[0.475651] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes/Link_2.STL\n'}
+[0.475774] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes/Link_6.STL\n'}
+[0.475894] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes/Link_4.STL\n'}
+[0.476013] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes/End_effector.STL\n'}
+[0.476152] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/urdf\n'}
+[0.476274] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/urdf/bot_ros2_control.xacro\n'}
+[0.476395] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/urdf/bot_gazebo.xacro\n'}
+[0.476514] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/urdf/bot.urdf.xacro\n'}
+[0.476636] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/launch\n'}
+[0.476757] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/launch/display.launch.py\n'}
+[0.476878] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/launch/gazebo.launch.py\n'}
+[0.476997] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/rviz\n'}
+[0.477117] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/rviz/display.rviz\n'}
+[0.477238] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/ament_index/resource_index/package_run_dependencies/bot_description\n'}
+[0.477365] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/ament_index/resource_index/parent_prefix_path/bot_description\n'}
+[0.477486] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/environment/ament_prefix_path.sh\n'}
+[0.477606] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/environment/ament_prefix_path.dsv\n'}
+[0.477726] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/environment/path.sh\n'}
+[0.477847] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/environment/path.dsv\n'}
+[0.477965] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/local_setup.bash\n'}
+[0.478086] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/local_setup.sh\n'}
+[0.478207] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/local_setup.zsh\n'}
+[0.478327] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/local_setup.dsv\n'}
+[0.478447] (bot_description) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/package.dsv\n'}
+[0.478571] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/ament_index/resource_index/packages/bot_description\n'}
+[0.478691] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/cmake/bot_descriptionConfig.cmake\n'}
+[0.482509] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/cmake/bot_descriptionConfig-version.cmake\n'}
+[0.482716] (bot_description) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/package.xml\n'}
+[0.482861] (bot_msgs) StdoutLine: {'line': b'[ 22%] Built target bot_msgs__rosidl_typesupport_cpp\n'}
+[0.483010] (bot_controller) CommandEnded: {'returncode': 0}
+[0.483608] (bot_msgs) StdoutLine: {'line': b'[ 32%] Built target bot_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.483757] (bot_msgs) StdoutLine: {'line': b'[ 41%] Built target bot_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.483889] (bot_remote) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/task_server.dir/src/task_server.cpp.o\x1b[0m\n'}
+[0.484548] (bot_moveit) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.485877] (bot_msgs) StdoutLine: {'line': b'[ 51%] Built target bot_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.487573] (bot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/launch\n'}
+[0.487826] (bot_msgs) StdoutLine: {'line': b'[ 61%] Built target bot_msgs__rosidl_typesupport_c\n'}
+[0.488011] (bot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/launch/moveit.launch.py\n'}
+[0.488276] (bot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/config\n'}
+[0.488429] (bot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/config/kinematics.yaml\n'}
+[0.488585] (bot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/config/pilz_cartesian_limits.yaml\n'}
+[0.488705] (bot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/config/moveit.rviz\n'}
+[0.488825] (bot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/config/joint_limits.yaml\n'}
+[0.489009] (bot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/config/initial_positions.yaml\n'}
+[0.489196] (bot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/config/bot.srdf\n'}
+[0.489316] (bot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/config/moveit_controllers.yaml\n'}
+[0.489434] (bot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/ament_index/resource_index/package_run_dependencies/bot_moveit\n'}
+[0.490021] (bot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/ament_index/resource_index/parent_prefix_path/bot_moveit\n'}
+[0.490207] (bot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/environment/ament_prefix_path.sh\n'}
+[0.490300] (bot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/environment/ament_prefix_path.dsv\n'}
+[0.490679] (bot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/environment/path.sh\n'}
+[0.490859] (bot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/environment/path.dsv\n'}
+[0.490944] (bot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/local_setup.bash\n'}
+[0.491024] (bot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/local_setup.sh\n'}
+[0.491101] (bot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/local_setup.zsh\n'}
+[0.491179] (bot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/local_setup.dsv\n'}
+[0.491258] (bot_moveit) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/package.dsv\n'}
+[0.491336] (bot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/ament_index/resource_index/packages/bot_moveit\n'}
+[0.491413] (bot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/cmake/bot_moveitConfig.cmake\n'}
+[0.491537] (bot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/cmake/bot_moveitConfig-version.cmake\n'}
+[0.491619] (bot_moveit) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/package.xml\n'}
+[0.493130] (bot_msgs) StdoutLine: {'line': b'[ 70%] Built target bot_msgs__rosidl_typesupport_introspection_c\n'}
+[0.500974] (-) TimerEvent: {}
+[0.514209] (bot_msgs) StdoutLine: {'line': b'[ 70%] Built target bot_msgs\n'}
+[0.540088] (bot_msgs) StdoutLine: {'line': b'[ 74%] Built target bot_msgs__py\n'}
+[0.564613] (bot_msgs) StdoutLine: {'line': b'[ 80%] Built target bot_msgs__rosidl_generator_py\n'}
+[0.586748] (abbbot_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.595652] (bot_msgs) StdoutLine: {'line': b'[ 87%] Built target bot_msgs__rosidl_typesupport_c__pyext\n'}
+[0.598580] (bot_description) CommandEnded: {'returncode': 0}
+[0.599284] (bot_msgs) StdoutLine: {'line': b'[ 93%] Built target bot_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.599456] (bot_msgs) StdoutLine: {'line': b'[100%] Built target bot_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.601095] (-) TimerEvent: {}
+[0.662000] (abbbot_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.667153] (abbbot_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.679465] (abbbot_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.697695] (abbbot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.701355] (-) TimerEvent: {}
+[0.714310] (bot_moveit) CommandEnded: {'returncode': 0}
+[0.729859] (abbbot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801518] (-) TimerEvent: {}
+[0.805551] (abbbot_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.901839] (-) TimerEvent: {}
+[0.902982] (bot_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.904565] (bot_msgs) StdoutLine: {'line': b'writing bot_msgs.egg-info/PKG-INFO\n'}
+[0.905026] (bot_msgs) StdoutLine: {'line': b'writing dependency_links to bot_msgs.egg-info/dependency_links.txt\n'}
+[0.905437] (bot_msgs) StdoutLine: {'line': b'writing top-level names to bot_msgs.egg-info/top_level.txt\n'}
+[0.908348] (bot_msgs) StdoutLine: {'line': b"reading manifest file 'bot_msgs.egg-info/SOURCES.txt'\n"}
+[0.909568] (bot_msgs) StdoutLine: {'line': b"writing manifest file 'bot_msgs.egg-info/SOURCES.txt'\n"}
+[0.949301] (bot_controller) JobEnded: {'identifier': 'bot_controller', 'rc': 0}
+[0.952210] (bot_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_bot_msgs_egg\n'}
+[1.001968] (-) TimerEvent: {}
+[1.089831] (bot_description) JobEnded: {'identifier': 'bot_description', 'rc': 0}
+[1.102081] (-) TimerEvent: {}
+[1.185668] (bot_moveit) JobEnded: {'identifier': 'bot_moveit', 'rc': 0}
+[1.187607] (bot_msgs) CommandEnded: {'returncode': 0}
+[1.202164] (-) TimerEvent: {}
+[1.245719] (bot_msgs) JobProgress: {'identifier': 'bot_msgs', 'progress': 'install'}
+[1.246148] (bot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mihir/abb_bot_ws/build/bot_msgs'], 'cwd': '/home/mihir/abb_bot_ws/build/bot_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mihir'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihir'), ('OLDPWD', '/home/mihir'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1730'), ('SYSTEMD_EXEC_PID', '2237'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11060'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mihir'), ('JOURNAL_STREAM', '8:36123'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/mihir/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihir-Inspiron-7501:@/tmp/.ICE-unix/2210,unix/mihir-Inspiron-7501:/tmp/.ICE-unix/2210'), ('INVOCATION_ID', 'dd797af2c3354a5da4f7063453ad0f13'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RWM_IMPLEMENTATION', 'rwm_cyclonedds_cpp'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:09043c08-a41c-4896-9f2d-2c3c88dbe2f4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihir/abb_bot_ws/build/bot_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.256578] (bot_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.256956] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/ament_index/resource_index/rosidl_interfaces/bot_msgs\n'}
+[1.257138] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs\n'}
+[1.257356] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/msg\n'}
+[1.257532] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.257724] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action\n'}
+[1.257850] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/bot_task.h\n'}
+[1.258007] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail\n'}
+[1.258238] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__type_support.h\n'}
+[1.258414] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__functions.h\n'}
+[1.258640] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__functions.c\n'}
+[1.258783] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__struct.h\n'}
+[1.258933] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/environment/library_path.sh\n'}
+[1.259056] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/environment/library_path.dsv\n'}
+[1.259180] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/lib/libbot_msgs__rosidl_generator_c.so\n'}
+[1.259303] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs\n'}
+[1.259428] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/msg\n'}
+[1.259553] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.259754] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action\n'}
+[1.259920] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail\n'}
+[1.260048] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__rosidl_typesupport_fastrtps_c.h\n'}
+[1.260283] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/lib/libbot_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.260413] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs\n'}
+[1.260581] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action\n'}
+[1.260709] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/bot_task.hpp\n'}
+[1.260865] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail\n'}
+[1.261075] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__struct.hpp\n'}
+[1.261230] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__traits.hpp\n'}
+[1.261363] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__builder.hpp\n'}
+[1.261540] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs\n'}
+[1.261741] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/msg\n'}
+[1.261956] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.262188] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action\n'}
+[1.262317] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail\n'}
+[1.262440] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/dds_fastrtps\n'}
+[1.262567] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.262689] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/lib/libbot_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.262827] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs\n'}
+[1.262946] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/msg\n'}
+[1.263069] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.263191] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action\n'}
+[1.263313] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail\n'}
+[1.263435] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__type_support.c\n'}
+[1.263555] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__rosidl_typesupport_introspection_c.h\n'}
+[1.263677] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/lib/libbot_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.263798] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/lib/libbot_msgs__rosidl_typesupport_c.so\n'}
+[1.263918] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs\n'}
+[1.264037] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action\n'}
+[1.264157] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail\n'}
+[1.264277] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__type_support.cpp\n'}
+[1.264412] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.264532] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/lib/libbot_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.264651] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/lib/libbot_msgs__rosidl_typesupport_cpp.so\n'}
+[1.264771] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/environment/pythonpath.sh\n'}
+[1.264891] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/environment/pythonpath.dsv\n'}
+[1.265009] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs-0.0.0-py3.10.egg-info\n'}
+[1.265146] (bot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.265282] (bot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.265405] (bot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.265525] (bot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.265646] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs\n'}
+[1.265766] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/_bot_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.265888] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/bot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.266014] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/bot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.266131] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/action\n'}
+[1.266244] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/action/_bot_task.py\n'}
+[1.266378] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/action/_bot_task_s.c\n'}
+[1.266492] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/action/__init__.py\n'}
+[1.266604] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/_bot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.266729] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/libbot_msgs__rosidl_generator_py.so\n'}
+[1.266851] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/bot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.266967] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/__init__.py\n'}
+[1.267076] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/_bot_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.302284] (-) TimerEvent: {}
+[1.306355] (bot_msgs) StdoutLine: {'line': b"Listing '/home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs'...\n"}
+[1.306729] (bot_msgs) StdoutLine: {'line': b"Listing '/home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/action'...\n"}
+[1.316081] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/bot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.316418] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/bot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.316780] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/bot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.317185] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/lib/libbot_msgs__rosidl_generator_py.so\n'}
+[1.317453] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/action/BotTask.idl\n'}
+[1.317688] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/action/BotTask.action\n'}
+[1.317835] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/ament_index/resource_index/package_run_dependencies/bot_msgs\n'}
+[1.318019] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/ament_index/resource_index/parent_prefix_path/bot_msgs\n'}
+[1.318216] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/environment/ament_prefix_path.sh\n'}
+[1.318395] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/environment/ament_prefix_path.dsv\n'}
+[1.318548] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/environment/path.sh\n'}
+[1.318666] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/environment/path.dsv\n'}
+[1.318855] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/local_setup.bash\n'}
+[1.319033] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/local_setup.sh\n'}
+[1.319185] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/local_setup.zsh\n'}
+[1.319404] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/local_setup.dsv\n'}
+[1.319551] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/package.dsv\n'}
+[1.319760] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/ament_index/resource_index/packages/bot_msgs\n'}
+[1.319947] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_generator_cExport.cmake\n'}
+[1.320131] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.320295] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.320491] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.320738] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_generator_cppExport.cmake\n'}
+[1.320984] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.321205] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.321363] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/bot_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.321498] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/bot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.321625] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/bot_msgs__rosidl_typesupport_cExport.cmake\n'}
+[1.321759] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/bot_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.321882] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/bot_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.322001] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/bot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.322133] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/bot_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[1.322271] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/bot_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.322408] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_generator_pyExport.cmake\n'}
+[1.322543] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.322680] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[1.322835] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.322973] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.323111] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.323247] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.323619] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.324075] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.324179] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/bot_msgsConfig.cmake\n'}
+[1.324267] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/bot_msgsConfig-version.cmake\n'}
+[1.324629] (bot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/package.xml\n'}
+[1.324715] (abbbot_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.324921] (bot_msgs) CommandEnded: {'returncode': 0}
+[1.408087] (-) TimerEvent: {}
+[1.508569] (-) TimerEvent: {}
+[1.609003] (-) TimerEvent: {}
+[1.709665] (-) TimerEvent: {}
+[1.738294] (bot_msgs) JobEnded: {'identifier': 'bot_msgs', 'rc': 0}
+[1.809792] (-) TimerEvent: {}
+[1.853282] (abbbot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.909923] (-) TimerEvent: {}
+[2.010362] (-) TimerEvent: {}
+[2.039623] (abbbot_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.082372] (abbbot_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.086248] (abbbot_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.110450] (-) TimerEvent: {}
+[2.142217] (abbbot_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.142776] (abbbot_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.143005] (abbbot_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.143155] (abbbot_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.182737] (abbbot_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.210557] (-) TimerEvent: {}
+[2.230968] (abbbot_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.256255] (abbbot_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.258312] (abbbot_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.262773] (abbbot_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.310694] (-) TimerEvent: {}
+[2.319590] (abbbot_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.323454] (abbbot_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/mihir/abb_bot_ws/build/abbbot_msgs\n'}
+[2.365480] (abbbot_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.381309] (abbbot_msgs) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.391387] (abbbot_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_abbbot_msgs\n'}
+[2.412441] (-) TimerEvent: {}
+[2.512884] (-) TimerEvent: {}
+[2.613347] (-) TimerEvent: {}
+[2.713712] (-) TimerEvent: {}
+[2.777708] (abbbot_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.778448] (abbbot_msgs) StdoutLine: {'line': b'creating abbbot_msgs.egg-info\n'}
+[2.778686] (abbbot_msgs) StdoutLine: {'line': b'writing abbbot_msgs.egg-info/PKG-INFO\n'}
+[2.779036] (abbbot_msgs) StdoutLine: {'line': b'writing dependency_links to abbbot_msgs.egg-info/dependency_links.txt\n'}
+[2.779244] (abbbot_msgs) StdoutLine: {'line': b'writing top-level names to abbbot_msgs.egg-info/top_level.txt\n'}
+[2.779505] (abbbot_msgs) StdoutLine: {'line': b"writing manifest file 'abbbot_msgs.egg-info/SOURCES.txt'\n"}
+[2.782032] (abbbot_msgs) StdoutLine: {'line': b"reading manifest file 'abbbot_msgs.egg-info/SOURCES.txt'\n"}
+[2.782621] (abbbot_msgs) StdoutLine: {'line': b"writing manifest file 'abbbot_msgs.egg-info/SOURCES.txt'\n"}
+[2.813832] (-) TimerEvent: {}
+[2.818521] (abbbot_msgs) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_abbbot_msgs_egg\n'}
+[2.913949] (-) TimerEvent: {}
+[3.014312] (-) TimerEvent: {}
+[3.055229] (abbbot_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/abbbot_msgs__rosidl_generator_c.dir/rosidl_generator_c/abbbot_msgs/action/detail/abbbot_task__functions.c.o\x1b[0m\n'}
+[3.114436] (-) TimerEvent: {}
+[3.203819] (abbbot_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking C shared library libabbbot_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.214605] (-) TimerEvent: {}
+[3.258300] (abbbot_msgs) StdoutLine: {'line': b'[ 12%] Built target abbbot_msgs__rosidl_generator_c\n'}
+[3.262901] (abbbot_msgs) StdoutLine: {'line': b'[ 12%] Built target abbbot_msgs__cpp\n'}
+[3.274406] (abbbot_msgs) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.275374] (abbbot_msgs) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.276289] (abbbot_msgs) StdoutLine: {'line': b'[ 22%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.280082] (abbbot_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.280522] (abbbot_msgs) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.280681] (abbbot_msgs) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.314897] (-) TimerEvent: {}
+[3.415562] (-) TimerEvent: {}
+[3.518776] (-) TimerEvent: {}
+[3.619161] (-) TimerEvent: {}
+[3.719717] (-) TimerEvent: {}
+[3.820259] (-) TimerEvent: {}
+[3.922785] (-) TimerEvent: {}
+[3.979581] (abbbot_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/abbbot_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/abbbot_msgs/action/abbbot_task__type_support.cpp.o\x1b[0m\n'}
+[4.010582] (abbbot_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/abbbot_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/abbbot_msgs/action/abbbot_task__type_support.cpp.o\x1b[0m\n'}
+[4.022897] (-) TimerEvent: {}
+[4.066431] (abbbot_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libabbbot_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.123039] (-) TimerEvent: {}
+[4.156713] (abbbot_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/abbbot_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/abbbot_msgs/action/detail/abbbot_task__type_support.cpp.o\x1b[0m\n'}
+[4.159026] (abbbot_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/abbbot_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/abbbot_msgs/action/detail/abbbot_task__type_support.c.o\x1b[0m\n'}
+[4.163530] (abbbot_msgs) StdoutLine: {'line': b'[ 48%] Built target abbbot_msgs__rosidl_typesupport_c\n'}
+[4.168313] (abbbot_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/abbbot_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/abbbot_msgs/action/detail/abbbot_task__type_support_c.cpp.o\x1b[0m\n'}
+[4.221512] (abbbot_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/abbbot_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/abbbot_msgs/action/detail/dds_fastrtps/abbbot_task__type_support.cpp.o\x1b[0m\n'}
+[4.223126] (-) TimerEvent: {}
+[4.243611] (abbbot_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libabbbot_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.298390] (abbbot_msgs) StdoutLine: {'line': b'[ 58%] Built target abbbot_msgs__rosidl_typesupport_introspection_c\n'}
+[4.323265] (-) TimerEvent: {}
+[4.423696] (-) TimerEvent: {}
+[4.524154] (-) TimerEvent: {}
+[4.624702] (-) TimerEvent: {}
+[4.725304] (-) TimerEvent: {}
+[4.787266] (abbbot_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libabbbot_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[4.825447] (-) TimerEvent: {}
+[4.894094] (abbbot_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libabbbot_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[4.912000] (abbbot_msgs) StdoutLine: {'line': b'[ 64%] Built target abbbot_msgs__rosidl_typesupport_fastrtps_c\n'}
+[4.925600] (-) TimerEvent: {}
+[4.962625] (abbbot_msgs) StdoutLine: {'line': b'[ 64%] Built target abbbot_msgs__rosidl_typesupport_cpp\n'}
+[5.002886] (abbbot_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libabbbot_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.025730] (-) TimerEvent: {}
+[5.116313] (abbbot_msgs) StdoutLine: {'line': b'[ 67%] Built target abbbot_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.125825] (-) TimerEvent: {}
+[5.143952] (abbbot_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libabbbot_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.225948] (-) TimerEvent: {}
+[5.232592] (abbbot_msgs) StdoutLine: {'line': b'[ 70%] Built target abbbot_msgs__rosidl_typesupport_introspection_cpp\n'}
+[5.252922] (abbbot_msgs) StdoutLine: {'line': b'[ 70%] Built target abbbot_msgs\n'}
+[5.275382] (abbbot_msgs) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.326295] (-) TimerEvent: {}
+[5.426687] (-) TimerEvent: {}
+[5.527021] (-) TimerEvent: {}
+[5.627330] (-) TimerEvent: {}
+[5.727670] (-) TimerEvent: {}
+[5.827978] (-) TimerEvent: {}
+[5.928302] (-) TimerEvent: {}
+[6.030785] (-) TimerEvent: {}
+[6.131148] (-) TimerEvent: {}
+[6.153490] (abbbot_msgs) StdoutLine: {'line': b'[ 74%] Built target abbbot_msgs__py\n'}
+[6.175139] (abbbot_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/abbbot_msgs__rosidl_generator_py.dir/rosidl_generator_py/abbbot_msgs/action/_abbbot_task_s.c.o\x1b[0m\n'}
+[6.231253] (-) TimerEvent: {}
+[6.331728] (-) TimerEvent: {}
+[6.339819] (abbbot_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/abbbot_msgs/libabbbot_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[6.383715] (abbbot_msgs) StdoutLine: {'line': b'[ 80%] Built target abbbot_msgs__rosidl_generator_py\n'}
+[6.406693] (abbbot_msgs) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/abbbot_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/abbbot_msgs/_abbbot_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.410447] (abbbot_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/abbbot_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/abbbot_msgs/_abbbot_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.413330] (abbbot_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/abbbot_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/abbbot_msgs/_abbbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.431829] (-) TimerEvent: {}
+[6.532261] (-) TimerEvent: {}
+[6.546273] (abbbot_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/abbbot_msgs/abbbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.550310] (abbbot_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/abbbot_msgs/abbbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.595657] (abbbot_msgs) StdoutLine: {'line': b'[ 96%] Built target abbbot_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[6.612670] (abbbot_msgs) StdoutLine: {'line': b'[ 96%] Built target abbbot_msgs__rosidl_typesupport_c__pyext\n'}
+[6.632399] (-) TimerEvent: {}
+[6.638731] (abbbot_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/abbbot_msgs/abbbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.680792] (abbbot_msgs) StdoutLine: {'line': b'[100%] Built target abbbot_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.692554] (abbbot_msgs) CommandEnded: {'returncode': 0}
+[6.732475] (-) TimerEvent: {}
+[6.744551] (abbbot_msgs) JobProgress: {'identifier': 'abbbot_msgs', 'progress': 'install'}
+[6.744844] (abbbot_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mihir/abb_bot_ws/build/abbbot_msgs'], 'cwd': '/home/mihir/abb_bot_ws/build/abbbot_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'mihir'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/mihir'), ('OLDPWD', '/home/mihir'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1730'), ('SYSTEMD_EXEC_PID', '2237'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11060'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'mihir'), ('JOURNAL_STREAM', '8:36123'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mihir'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/mihir/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/mihir-Inspiron-7501:@/tmp/.ICE-unix/2210,unix/mihir-Inspiron-7501:/tmp/.ICE-unix/2210'), ('INVOCATION_ID', 'dd797af2c3354a5da4f7063453ad0f13'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('RWM_IMPLEMENTATION', 'rwm_cyclonedds_cpp'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:09043c08-a41c-4896-9f2d-2c3c88dbe2f4'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mihir/abb_bot_ws/build/abbbot_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.753744] (abbbot_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.753992] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/ament_index/resource_index/rosidl_interfaces/abbbot_msgs\n'}
+[6.754172] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs\n'}
+[6.754293] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/msg\n'}
+[6.754437] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.754551] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action\n'}
+[6.754689] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action/abbbot_task.h\n'}
+[6.754927] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action/detail\n'}
+[6.755005] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action/detail/abbbot_task__struct.h\n'}
+[6.755080] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action/detail/abbbot_task__type_support.h\n'}
+[6.755154] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action/detail/abbbot_task__functions.c\n'}
+[6.755263] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action/detail/abbbot_task__functions.h\n'}
+[6.755383] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/environment/library_path.sh\n'}
+[6.755484] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/environment/library_path.dsv\n'}
+[6.755591] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/lib/libabbbot_msgs__rosidl_generator_c.so\n'}
+[6.755815] (abbbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/mihir/abb_bot_ws/install/abbbot_msgs/lib/libabbbot_msgs__rosidl_generator_c.so" to ""\n'}
+[6.755981] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs\n'}
+[6.756140] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/msg\n'}
+[6.756221] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.756333] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action\n'}
+[6.756406] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action/detail\n'}
+[6.756478] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action/detail/abbbot_task__rosidl_typesupport_fastrtps_c.h\n'}
+[6.756554] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/lib/libabbbot_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[6.756727] (abbbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/mihir/abb_bot_ws/install/abbbot_msgs/lib/libabbbot_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.756861] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs\n'}
+[6.756945] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action\n'}
+[6.757054] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action/abbbot_task.hpp\n'}
+[6.757159] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action/detail\n'}
+[6.757317] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action/detail/abbbot_task__struct.hpp\n'}
+[6.757466] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action/detail/abbbot_task__builder.hpp\n'}
+[6.757579] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action/detail/abbbot_task__traits.hpp\n'}
+[6.757659] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs\n'}
+[6.757765] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/msg\n'}
+[6.757840] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.757913] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action\n'}
+[6.758024] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action/detail\n'}
+[6.758173] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action/detail/dds_fastrtps\n'}
+[6.758317] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action/detail/abbbot_task__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.758422] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/lib/libabbbot_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.758494] (abbbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/mihir/abb_bot_ws/install/abbbot_msgs/lib/libabbbot_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.758604] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs\n'}
+[6.758678] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/msg\n'}
+[6.758774] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.758880] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action\n'}
+[6.758991] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action/detail\n'}
+[6.759068] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action/detail/abbbot_task__rosidl_typesupport_introspection_c.h\n'}
+[6.759177] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action/detail/abbbot_task__type_support.c\n'}
+[6.759390] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/lib/libabbbot_msgs__rosidl_typesupport_introspection_c.so\n'}
+[6.759562] (abbbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/mihir/abb_bot_ws/install/abbbot_msgs/lib/libabbbot_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.759714] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/lib/libabbbot_msgs__rosidl_typesupport_c.so\n'}
+[6.759858] (abbbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/mihir/abb_bot_ws/install/abbbot_msgs/lib/libabbbot_msgs__rosidl_typesupport_c.so" to ""\n'}
+[6.759936] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs\n'}
+[6.760016] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action\n'}
+[6.760094] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action/detail\n'}
+[6.760227] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action/detail/abbbot_task__type_support.cpp\n'}
+[6.760307] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/include/abbbot_msgs/abbbot_msgs/action/detail/abbbot_task__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.760390] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/lib/libabbbot_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[6.760499] (abbbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/mihir/abb_bot_ws/install/abbbot_msgs/lib/libabbbot_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.760605] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/lib/libabbbot_msgs__rosidl_typesupport_cpp.so\n'}
+[6.760718] (abbbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/mihir/abb_bot_ws/install/abbbot_msgs/lib/libabbbot_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[6.760835] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/environment/pythonpath.sh\n'}
+[6.760913] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/environment/pythonpath.dsv\n'}
+[6.761057] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs-0.0.0-py3.10.egg-info\n'}
+[6.761192] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[6.761298] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[6.761410] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[6.761546] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[6.761634] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs\n'}
+[6.761741] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs/_abbbot_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[6.761853] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs/libabbbot_msgs__rosidl_generator_py.so\n'}
+[6.761958] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs/abbbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.762069] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs/abbbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.762184] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs/action\n'}
+[6.762297] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs/action/_abbbot_task_s.c\n'}
+[6.762407] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs/action/__init__.py\n'}
+[6.762517] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs/action/_abbbot_task.py\n'}
+[6.762596] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs/_abbbot_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[6.762718] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs/_abbbot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[6.762868] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs/abbbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.762984] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs/__init__.py\n'}
+[6.804688] (abbbot_msgs) StdoutLine: {'line': b"Listing '/home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs'...\n"}
+[6.804960] (abbbot_msgs) StdoutLine: {'line': b"Compiling '/home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs/__init__.py'...\n"}
+[6.805063] (abbbot_msgs) StdoutLine: {'line': b"Listing '/home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs/action'...\n"}
+[6.805143] (abbbot_msgs) StdoutLine: {'line': b"Compiling '/home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs/action/__init__.py'...\n"}
+[6.805231] (abbbot_msgs) StdoutLine: {'line': b"Compiling '/home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs/action/_abbbot_task.py'...\n"}
+[6.810890] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs/abbbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.811369] (abbbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs/abbbot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.811717] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs/abbbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.812264] (abbbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs/abbbot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.812451] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs/abbbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[6.812753] (abbbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages/abbbot_msgs/abbbot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[6.812914] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/lib/libabbbot_msgs__rosidl_generator_py.so\n'}
+[6.813144] (abbbot_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/mihir/abb_bot_ws/install/abbbot_msgs/lib/libabbbot_msgs__rosidl_generator_py.so" to ""\n'}
+[6.813268] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/action/AbbbotTask.idl\n'}
+[6.813388] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/action/AbbbotTask.action\n'}
+[6.813505] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/ament_index/resource_index/package_run_dependencies/abbbot_msgs\n'}
+[6.813635] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/ament_index/resource_index/parent_prefix_path/abbbot_msgs\n'}
+[6.813764] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/environment/ament_prefix_path.sh\n'}
+[6.813847] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/environment/ament_prefix_path.dsv\n'}
+[6.813966] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/environment/path.sh\n'}
+[6.814100] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/environment/path.dsv\n'}
+[6.814180] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/local_setup.bash\n'}
+[6.814298] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/local_setup.sh\n'}
+[6.814410] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/local_setup.zsh\n'}
+[6.814490] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/local_setup.dsv\n'}
+[6.814624] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/package.dsv\n'}
+[6.814749] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/ament_index/resource_index/packages/abbbot_msgs\n'}
+[6.814832] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/export_abbbot_msgs__rosidl_generator_cExport.cmake\n'}
+[6.814941] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/export_abbbot_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.815047] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/export_abbbot_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[6.815163] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/export_abbbot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[6.815271] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/export_abbbot_msgs__rosidl_generator_cppExport.cmake\n'}
+[6.815399] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/export_abbbot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[6.815477] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/export_abbbot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[6.815584] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/abbbot_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.815695] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/abbbot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.815801] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/abbbot_msgs__rosidl_typesupport_cExport.cmake\n'}
+[6.815913] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/abbbot_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.816030] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/abbbot_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.816166] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/abbbot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.816301] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/abbbot_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[6.816424] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/abbbot_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.816556] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/export_abbbot_msgs__rosidl_generator_pyExport.cmake\n'}
+[6.816679] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/export_abbbot_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[6.816799] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[6.816914] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.817048] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.817166] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.817287] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.817407] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.817530] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.817648] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/abbbot_msgsConfig.cmake\n'}
+[6.817764] (abbbot_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/cmake/abbbot_msgsConfig-version.cmake\n'}
+[6.817869] (abbbot_msgs) StdoutLine: {'line': b'-- Installing: /home/mihir/abb_bot_ws/install/abbbot_msgs/share/abbbot_msgs/package.xml\n'}
+[6.820264] (abbbot_msgs) CommandEnded: {'returncode': 0}
+[6.832610] (-) TimerEvent: {}
+[6.933565] (-) TimerEvent: {}
+[7.034126] (-) TimerEvent: {}
+[7.080667] (abbbot_msgs) JobEnded: {'identifier': 'abbbot_msgs', 'rc': 0}
+[7.134263] (-) TimerEvent: {}
+[7.234641] (-) TimerEvent: {}
+[7.335019] (-) TimerEvent: {}
+[7.435475] (-) TimerEvent: {}
+[7.535893] (-) TimerEvent: {}
+[7.636329] (-) TimerEvent: {}
+[7.719774] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:25:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbot_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.720150] (bot_remote) StderrLine: {'line': b'   25 |   rclcpp_action::Server<\x1b[01;31m\x1b[Kbot_msgs\x1b[m\x1b[K::action::BotTask>::SharedPtr action_server_;\n'}
+[7.720282] (bot_remote) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.720395] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:25:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.720511] (bot_remote) StderrLine: {'line': b'   25 |   rclcpp_action::Server<bot_msgs::action::BotTask\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr action_server_;\n'}
+[7.720623] (bot_remote) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.720744] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:25:53:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[7.720852] (bot_remote) StderrLine: {'line': b'   25 |   rclcpp_action::Server<bot_msgs::action::BotTask>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K action_server_;\n'}
+[7.720956] (bot_remote) StderrLine: {'line': b'      |                                                     \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[7.721061] (bot_remote) StderrLine: {'line': b'      |                                                              \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[7.725516] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:25:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kaction_server_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_action_server_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.725965] (bot_remote) StderrLine: {'line': b'   25 | rclcpp_action::Server<bot_msgs::action::BotTask>::SharedPtr \x1b[01;31m\x1b[Kaction_server_\x1b[m\x1b[K;\n'}
+[7.726105] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.726234] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[Krcl_action_server_t\x1b[m\x1b[K\n'}
+[7.726356] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:27:111:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.726486] (bot_remote) StderrLine: {'line': b'   27 | clcpp_action::GoalUUID& uuid, std::shared_ptr<const bot_msgs\x1b[01;31m\x1b[K::\x1b[m\x1b[Kaction::BotTask::Goal> goal)\n'}
+[7.726618] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.726745] (bot_remote) StderrLine: {'line': b'\n'}
+[7.726858] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:27:134:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.726978] (bot_remote) StderrLine: {'line': b'   27 | UID& uuid, std::shared_ptr<const bot_msgs::action::BotTask::Goal\x1b[01;31m\x1b[K>\x1b[m\x1b[K goal)\n'}
+[7.727086] (bot_remote) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.727188] (bot_remote) StderrLine: {'line': b'\n'}
+[7.727286] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:27:111:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.727388] (bot_remote) StderrLine: {'line': b'   27 | clcpp_action::GoalUUID& uuid, std::shared_ptr<const bot_msgs\x1b[01;31m\x1b[K::\x1b[m\x1b[Kaction::BotTask::Goal> goal)\n'}
+[7.727485] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.727582] (bot_remote) StderrLine: {'line': b'\n'}
+[7.727677] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:27:134:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.727775] (bot_remote) StderrLine: {'line': b'   27 | UID& uuid, std::shared_ptr<const bot_msgs::action::BotTask::Goal\x1b[01;31m\x1b[K>\x1b[m\x1b[K goal)\n'}
+[7.727879] (bot_remote) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.727981] (bot_remote) StderrLine: {'line': b'\n'}
+[7.728082] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:27:111:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.728214] (bot_remote) StderrLine: {'line': b'   27 | clcpp_action::GoalUUID& uuid, std::shared_ptr<const bot_msgs\x1b[01;31m\x1b[K::\x1b[m\x1b[Kaction::BotTask::Goal> goal)\n'}
+[7.728320] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.728423] (bot_remote) StderrLine: {'line': b'\n'}
+[7.728525] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:27:134:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.728630] (bot_remote) StderrLine: {'line': b'   27 | UID& uuid, std::shared_ptr<const bot_msgs::action::BotTask::Goal\x1b[01;31m\x1b[K>\x1b[m\x1b[K goal)\n'}
+[7.728743] (bot_remote) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.728845] (bot_remote) StderrLine: {'line': b'\n'}
+[7.728946] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:27:81:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[7.729059] (bot_remote) StderrLine: {'line': b'   27 | lResponse goalCallback(const rclcpp_action::GoalUUID& uuid, \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<const bot_msgs::action::BotTask::Goal> goal)\n'}
+[7.729164] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.729267] (bot_remote) StderrLine: {'line': b'\n'}
+[7.729369] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:27:111:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.729476] (bot_remote) StderrLine: {'line': b'   27 | clcpp_action::GoalUUID& uuid, std::shared_ptr<const bot_msgs\x1b[01;31m\x1b[K::\x1b[m\x1b[Kaction::BotTask::Goal> goal)\n'}
+[7.729580] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.729682] (bot_remote) StderrLine: {'line': b'\n'}
+[7.729784] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:27:97:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.729887] (bot_remote) StderrLine: {'line': b'   27 | llback(const rclcpp_action::GoalUUID& uuid, std::shared_ptr<\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K bot_msgs::action::BotTask::Goal> goal)\n'}
+[7.729992] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.730095] (bot_remote) StderrLine: {'line': b'\n'}
+[7.730200] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:27:97:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kconst\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.730308] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:27:81:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[7.730414] (bot_remote) StderrLine: {'line': b'   27 | lResponse goalCallback(const rclcpp_action::GoalUUID& uuid, \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<const bot_msgs::action::BotTask::Goal> goal)\n'}
+[7.730522] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.730629] (bot_remote) StderrLine: {'line': b'\n'}
+[7.735454] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:102:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbot_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.735641] (bot_remote) StderrLine: {'line': b'   34 | lback(const std::shared_ptr<rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[Kbot_msgs\x1b[m\x1b[K::action::BotTask>> goal_handle)\n'}
+[7.735760] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.735868] (bot_remote) StderrLine: {'line': b'\n'}
+[7.735975] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:127:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.736078] (bot_remote) StderrLine: {'line': b'   34 | tr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle)\n'}
+[7.736179] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.736281] (bot_remote) StderrLine: {'line': b'\n'}
+[7.736385] (-) TimerEvent: {}
+[7.742611] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:102:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbot_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.742919] (bot_remote) StderrLine: {'line': b'   34 | lback(const std::shared_ptr<rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[Kbot_msgs\x1b[m\x1b[K::action::BotTask>> goal_handle)\n'}
+[7.743045] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.743154] (bot_remote) StderrLine: {'line': b'\n'}
+[7.743260] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:127:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.743364] (bot_remote) StderrLine: {'line': b'   34 | tr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle)\n'}
+[7.743479] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.743609] (bot_remote) StderrLine: {'line': b'\n'}
+[7.749730] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:102:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbot_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.749970] (bot_remote) StderrLine: {'line': b'   34 | lback(const std::shared_ptr<rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[Kbot_msgs\x1b[m\x1b[K::action::BotTask>> goal_handle)\n'}
+[7.750094] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.750201] (bot_remote) StderrLine: {'line': b'\n'}
+[7.750308] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:127:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.750412] (bot_remote) StderrLine: {'line': b'   34 | tr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle)\n'}
+[7.750513] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.750630] (bot_remote) StderrLine: {'line': b'\n'}
+[7.750770] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[7.750882] (bot_remote) StderrLine: {'line': b'   34 | action::CancelResponse cancelCallback(const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<bot_msgs::action::BotTask>> goal_handle)\n'}
+[7.750993] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.751085] (bot_remote) StderrLine: {'line': b'\n'}
+[7.757191] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:102:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbot_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.757519] (bot_remote) StderrLine: {'line': b'   34 | lback(const std::shared_ptr<rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[Kbot_msgs\x1b[m\x1b[K::action::BotTask>> goal_handle)\n'}
+[7.757791] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.757923] (bot_remote) StderrLine: {'line': b'\n'}
+[7.758047] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:130:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.758167] (bot_remote) StderrLine: {'line': b'   34 | rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask>> \x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K)\n'}
+[7.758283] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.758400] (bot_remote) StderrLine: {'line': b'\n'}
+[7.758529] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:130:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.758635] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:130:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.758753] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[7.758859] (bot_remote) StderrLine: {'line': b'   34 |   rclcpp_action::CancelResponse cancelCallback(const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask>> goal_handle)\n'}
+[7.758962] (bot_remote) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.759061] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:130:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmissing template arguments before \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.759161] (bot_remote) StderrLine: {'line': b'   34 | rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask>> \x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K)\n'}
+[7.759259] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.759360] (bot_remote) StderrLine: {'line': b'\n'}
+[7.759464] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:130:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.759569] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:48:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[7.759674] (bot_remote) StderrLine: {'line': b'   34 |   rclcpp_action::CancelResponse cancelCallback(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::shared_ptr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask>> goal_handle)\n'}
+[7.759778] (bot_remote) StderrLine: {'line': b'      |                                                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.767572] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbot_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.767929] (bot_remote) StderrLine: {'line': b'   46 | lback(const std::shared_ptr<rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[Kbot_msgs\x1b[m\x1b[K::action::BotTask>> goal_handle)\n'}
+[7.768095] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.768222] (bot_remote) StderrLine: {'line': b'\n'}
+[7.768346] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:104:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.768466] (bot_remote) StderrLine: {'line': b'   46 | tr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle)\n'}
+[7.768592] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.768704] (bot_remote) StderrLine: {'line': b'\n'}
+[7.775757] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbot_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.776059] (bot_remote) StderrLine: {'line': b'   46 | lback(const std::shared_ptr<rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[Kbot_msgs\x1b[m\x1b[K::action::BotTask>> goal_handle)\n'}
+[7.776261] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.776390] (bot_remote) StderrLine: {'line': b'\n'}
+[7.776513] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:104:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.776636] (bot_remote) StderrLine: {'line': b'   46 | tr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle)\n'}
+[7.776752] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.776883] (bot_remote) StderrLine: {'line': b'\n'}
+[7.783508] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbot_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.783809] (bot_remote) StderrLine: {'line': b'   46 | lback(const std::shared_ptr<rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[Kbot_msgs\x1b[m\x1b[K::action::BotTask>> goal_handle)\n'}
+[7.783934] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.784044] (bot_remote) StderrLine: {'line': b'\n'}
+[7.784151] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:104:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.784255] (bot_remote) StderrLine: {'line': b'   46 | tr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle)\n'}
+[7.784359] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.784462] (bot_remote) StderrLine: {'line': b'\n'}
+[7.784564] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:47:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[7.784659] (bot_remote) StderrLine: {'line': b'   46 |   void acceptedCallback(const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<bot_msgs::action::BotTask>> goal_handle)\n'}
+[7.784764] (bot_remote) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.791768] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbot_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.792216] (bot_remote) StderrLine: {'line': b'   46 | lback(const std::shared_ptr<rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[Kbot_msgs\x1b[m\x1b[K::action::BotTask>> goal_handle)\n'}
+[7.792350] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.792460] (bot_remote) StderrLine: {'line': b'\n'}
+[7.792568] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:107:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.792673] (bot_remote) StderrLine: {'line': b'   46 | rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask>> \x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K)\n'}
+[7.792779] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.792877] (bot_remote) StderrLine: {'line': b'\n'}
+[7.792978] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:107:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.793083] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:107:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.793179] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[7.793270] (bot_remote) StderrLine: {'line': b'   46 |   void acceptedCallback(const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask>> goal_handle)\n'}
+[7.793359] (bot_remote) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.793470] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:107:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmissing template arguments before \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.793592] (bot_remote) StderrLine: {'line': b'   46 | rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask>> \x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K)\n'}
+[7.793681] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.793767] (bot_remote) StderrLine: {'line': b'\n'}
+[7.793853] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:107:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.793946] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[7.794042] (bot_remote) StderrLine: {'line': b'   46 |   void acceptedCallback(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::shared_ptr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask>> goal_handle)\n'}
+[7.794137] (bot_remote) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.800273] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbot_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.800570] (bot_remote) StderrLine: {'line': b'   52 | ecute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[Kbot_msgs\x1b[m\x1b[K::action::BotTask>> goal_handle)\n'}
+[7.800710] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.800819] (bot_remote) StderrLine: {'line': b'\n'}
+[7.800929] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:95:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.801044] (bot_remote) StderrLine: {'line': b'   52 | tr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle)\n'}
+[7.801149] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.801260] (bot_remote) StderrLine: {'line': b'\n'}
+[7.807397] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbot_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.807632] (bot_remote) StderrLine: {'line': b'   52 | ecute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[Kbot_msgs\x1b[m\x1b[K::action::BotTask>> goal_handle)\n'}
+[7.807772] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.807882] (bot_remote) StderrLine: {'line': b'\n'}
+[7.807992] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:95:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.808096] (bot_remote) StderrLine: {'line': b'   52 | tr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle)\n'}
+[7.808197] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.808300] (bot_remote) StderrLine: {'line': b'\n'}
+[7.814589] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbot_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.814862] (bot_remote) StderrLine: {'line': b'   52 | ecute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[Kbot_msgs\x1b[m\x1b[K::action::BotTask>> goal_handle)\n'}
+[7.814991] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.815101] (bot_remote) StderrLine: {'line': b'\n'}
+[7.815208] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:95:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.815314] (bot_remote) StderrLine: {'line': b'   52 | tr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask\x1b[01;31m\x1b[K>>\x1b[m\x1b[K goal_handle)\n'}
+[7.815414] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[7.815517] (bot_remote) StderrLine: {'line': b'\n'}
+[7.815621] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[7.815717] (bot_remote) StderrLine: {'line': b'   52 |   void execute(const std::shared_ptr<\x1b[01;31m\x1b[Krclcpp_action\x1b[m\x1b[K::ServerGoalHandle<bot_msgs::action::BotTask>> goal_handle)\n'}
+[7.815825] (bot_remote) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.823114] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbot_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.823384] (bot_remote) StderrLine: {'line': b'   52 | ecute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<\x1b[01;31m\x1b[Kbot_msgs\x1b[m\x1b[K::action::BotTask>> goal_handle)\n'}
+[7.823529] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.823640] (bot_remote) StderrLine: {'line': b'\n'}
+[7.823751] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:98:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.823884] (bot_remote) StderrLine: {'line': b'   52 | rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask>> \x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K)\n'}
+[7.824002] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.824121] (bot_remote) StderrLine: {'line': b'\n'}
+[7.824238] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:98:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.824356] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:98:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.824475] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[7.824594] (bot_remote) StderrLine: {'line': b'   52 |   void execute(const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask>> goal_handle)\n'}
+[7.824702] (bot_remote) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.824808] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:98:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kmissing template arguments before \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.824922] (bot_remote) StderrLine: {'line': b'   52 | rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask>> \x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K)\n'}
+[7.825032] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.825137] (bot_remote) StderrLine: {'line': b'\n'}
+[7.825241] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:98:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.825345] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:16:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[7.825445] (bot_remote) StderrLine: {'line': b'   52 |   void execute(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::shared_ptr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask>> goal_handle)\n'}
+[7.825551] (bot_remote) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.836167] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[Kbot_remote::TaskServer::TaskServer(const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.836448] (-) TimerEvent: {}
+[7.836617] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:18:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kaction_server_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_action_server_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.836783] (bot_remote) StderrLine: {'line': b'   18 |     \x1b[01;31m\x1b[Kaction_server_\x1b[m\x1b[K = rclcpp_action::create_server<bot_msgs::action::BotTask>(\n'}
+[7.836896] (bot_remote) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.837001] (bot_remote) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krcl_action_server_t\x1b[m\x1b[K\n'}
+[7.843483] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:18:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbot_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.843793] (bot_remote) StderrLine: {'line': b'   18 |     action_server_ = rclcpp_action::create_server<\x1b[01;31m\x1b[Kbot_msgs\x1b[m\x1b[K::action::BotTask>(\n'}
+[7.843931] (bot_remote) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.844060] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:18:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[7.844175] (bot_remote) StderrLine: {'line': b'   18 |     action_server_ = rclcpp_action::\x1b[01;31m\x1b[Kcreate_server<bot_msgs::action::BotTask>\x1b[m\x1b[K(\n'}
+[7.844325] (bot_remote) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.856279] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:18:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kcreate_server<<expression error> >(bot_remote::TaskServer*, const char [12], std::_Bind_helper<false, rclcpp_action::GoalResponse (bot_remote::TaskServer::*)(...), bot_remote::TaskServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type, std::_Bind_helper<false, rclcpp_action::CancelResponse (bot_remote::TaskServer::*)(...), bot_remote::TaskServer*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, void (bot_remote::TaskServer::*)(...), bot_remote::TaskServer*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.856840] (bot_remote) StderrLine: {'line': b'   18 | tion_server_ = \x1b[01;31m\x1b[Krclcpp_action::create_server<bot_msgs::action::BotTask>(\x1b[m\x1b[K\n'}
+[7.857013] (bot_remote) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[7.857132] (bot_remote) StderrLine: {'line': b'\n'}
+[7.857208] (bot_remote) StderrLine: {'line': b'   19 | \x1b[01;31m\x1b[K  this, "task_server", std::bind(&TaskServer::goalCallback, this, _1, _2),\x1b[m\x1b[K\n'}
+[7.857281] (bot_remote) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.857352] (bot_remote) StderrLine: {'line': b'\n'}
+[7.857422] (bot_remote) StderrLine: {'line': b'   20 | \x1b[01;31m\x1b[K  std::bind(&TaskServer::cancelCallback, this, _1),\x1b[m\x1b[K\n'}
+[7.857492] (bot_remote) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                    \n'}
+[7.857572] (bot_remote) StderrLine: {'line': b'\n'}
+[7.857677] (bot_remote) StderrLine: {'line': b'   21 | \x1b[01;31m\x1b[K  std::bind(&TaskServer::acceptedCallback, this, _1))\x1b[m\x1b[K;\n'}
+[7.857792] (bot_remote) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                  \n'}
+[7.857880] (bot_remote) StderrLine: {'line': b'\n'}
+[7.857951] (bot_remote) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39\x1b[m\x1b[K,\n'}
+[7.858026] (bot_remote) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:2\x1b[m\x1b[K:\n'}
+[7.858096] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ActionT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.858173] (bot_remote) StderrLine: {'line': b'   58 | \x1b[01;36m\x1b[Kcreate_server\x1b[m\x1b[K(\n'}
+[7.858243] (bot_remote) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.858311] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.858382] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:18:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.858452] (bot_remote) StderrLine: {'line': b'   18 | tion_server_ = \x1b[01;31m\x1b[Krclcpp_action::create_server<bot_msgs::action::BotTask>(\x1b[m\x1b[K\n'}
+[7.858521] (bot_remote) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[7.858601] (bot_remote) StderrLine: {'line': b'\n'}
+[7.858751] (bot_remote) StderrLine: {'line': b'   19 | \x1b[01;31m\x1b[K  this, "task_server", std::bind(&TaskServer::goalCallback, this, _1, _2),\x1b[m\x1b[K\n'}
+[7.858855] (bot_remote) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.858928] (bot_remote) StderrLine: {'line': b'\n'}
+[7.859004] (bot_remote) StderrLine: {'line': b'   20 | \x1b[01;31m\x1b[K  std::bind(&TaskServer::cancelCallback, this, _1),\x1b[m\x1b[K\n'}
+[7.859074] (bot_remote) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                    \n'}
+[7.859142] (bot_remote) StderrLine: {'line': b'\n'}
+[7.859210] (bot_remote) StderrLine: {'line': b'   21 | \x1b[01;31m\x1b[K  std::bind(&TaskServer::acceptedCallback, this, _1))\x1b[m\x1b[K;\n'}
+[7.859280] (bot_remote) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                  \n'}
+[7.859350] (bot_remote) StderrLine: {'line': b'\n'}
+[7.859433] (bot_remote) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39\x1b[m\x1b[K,\n'}
+[7.859520] (bot_remote) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:2\x1b[m\x1b[K:\n'}
+[7.859591] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(NodeT, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.859725] (bot_remote) StderrLine: {'line': b'  132 | \x1b[01;36m\x1b[Kcreate_server\x1b[m\x1b[K(\n'}
+[7.859838] (bot_remote) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.859959] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.860088] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:18:77:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.860229] (bot_remote) StderrLine: {'line': b'   18 | tion_server_ = \x1b[01;31m\x1b[Krclcpp_action::create_server<bot_msgs::action::BotTask>(\x1b[m\x1b[K\n'}
+[7.860356] (bot_remote) StderrLine: {'line': b'      |                \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[7.860454] (bot_remote) StderrLine: {'line': b'\n'}
+[7.860526] (bot_remote) StderrLine: {'line': b'   19 | \x1b[01;31m\x1b[K  this, "task_server", std::bind(&TaskServer::goalCallback, this, _1, _2),\x1b[m\x1b[K\n'}
+[7.860597] (bot_remote) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.860667] (bot_remote) StderrLine: {'line': b'\n'}
+[7.860742] (bot_remote) StderrLine: {'line': b'   20 | \x1b[01;31m\x1b[K  std::bind(&TaskServer::cancelCallback, this, _1),\x1b[m\x1b[K\n'}
+[7.860813] (bot_remote) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                    \n'}
+[7.860883] (bot_remote) StderrLine: {'line': b'\n'}
+[7.860951] (bot_remote) StderrLine: {'line': b'   21 | \x1b[01;31m\x1b[K  std::bind(&TaskServer::acceptedCallback, this, _1))\x1b[m\x1b[K;\n'}
+[7.861021] (bot_remote) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                  \n'}
+[7.861090] (bot_remote) StderrLine: {'line': b'\n'}
+[7.866583] (bot_remote) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[7.866860] (bot_remote) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[7.866942] (bot_remote) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[7.867015] (bot_remote) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[7.867086] (bot_remote) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[7.867186] (bot_remote) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[7.867277] (bot_remote) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[7.867352] (bot_remote) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[7.867441] (bot_remote) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[7.867553] (bot_remote) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[7.867651] (bot_remote) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.867841] (bot_remote) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:1\x1b[m\x1b[K:\n'}
+[7.867913] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Krclcpp_action::GoalResponse bot_remote::TaskServer::goalCallback(...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.867985] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:29:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.868089] (bot_remote) StderrLine: {'line': b'   29 | LCPP_INFO(get_logger(), "Received goal request with id %d", \x1b[01;31m\x1b[Kgoal\x1b[m\x1b[K->task_number);\n'}
+[7.868159] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[7.868237] (bot_remote) StderrLine: {'line': b'\n'}
+[7.868311] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:27:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kuuid\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[7.868393] (bot_remote) StderrLine: {'line': b'   27 | n::GoalResponse goalCallback(\x1b[01;35m\x1b[Kconst rclcpp_action::GoalUUID& uuid\x1b[m\x1b[K, std::shared_ptr<const bot_msgs::action::BotTask::Goal> goal)\n'}
+[7.868469] (bot_remote) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[7.868548] (bot_remote) StderrLine: {'line': b'\n'}
+[7.879017] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid bot_remote::TaskServer::acceptedCallback(...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.879563] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:49:61:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.879656] (bot_remote) StderrLine: {'line': b'   49 |     std::thread{ std::bind(&TaskServer::execute, this, _1), \x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K }.detach();\n'}
+[7.879734] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.879808] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:49:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::thread(<brace-enclosed initializer list>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.879882] (bot_remote) StderrLine: {'line': b'   49 | ead{ std::bind(&TaskServer::execute, this, _1), goal_handle \x1b[01;31m\x1b[K}\x1b[m\x1b[K.detach();\n'}
+[7.879985] (bot_remote) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.880097] (bot_remote) StderrLine: {'line': b'\n'}
+[7.880178] (bot_remote) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/future:48\x1b[m\x1b[K,\n'}
+[7.880249] (bot_remote) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18\x1b[m\x1b[K,\n'}
+[7.880336] (bot_remote) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[7.880442] (bot_remote) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:1\x1b[m\x1b[K:\n'}
+[7.880568] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:127:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Callable, class ... _Args, class> std::thread::thread(_Callable&&, _Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.880684] (bot_remote) StderrLine: {'line': b'  127 |       \x1b[01;36m\x1b[Kthread\x1b[m\x1b[K(_Callable&& __f, _Args&&... __args)\n'}
+[7.880761] (bot_remote) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.880857] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:127:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.880946] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:157:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::thread(std::thread&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.881023] (bot_remote) StderrLine: {'line': b'  157 |     \x1b[01;36m\x1b[Kthread\x1b[m\x1b[K(thread&& __t) noexcept\n'}
+[7.881099] (bot_remote) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.881173] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:157:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[7.881249] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:121:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::thread::thread()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.881324] (bot_remote) StderrLine: {'line': b'  121 |     \x1b[01;36m\x1b[Kthread\x1b[m\x1b[K() noexcept = default;\n'}
+[7.881410] (bot_remote) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[7.881481] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_thread.h:121:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 0 arguments, 2 provided\n'}
+[7.891093] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid bot_remote::TaskServer::execute(...)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.891380] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:61:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.891471] (bot_remote) StderrLine: {'line': b'   61 |     if(\x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K->get_goal()->task_number == 0) //home position\n'}
+[7.891547] (bot_remote) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.905318] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:114:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kbot_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.905813] (bot_remote) StderrLine: {'line': b'  114 |     auto result = std::make_shared<\x1b[01;31m\x1b[Kbot_msgs\x1b[m\x1b[K::action::BotTask::Result>();\n'}
+[7.905908] (bot_remote) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[7.905985] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:114:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[7.906060] (bot_remote) StderrLine: {'line': b'  114 |     auto result = std::\x1b[01;31m\x1b[Kmake_shared<bot_msgs::action::BotTask::Result>\x1b[m\x1b[K();\n'}
+[7.906131] (bot_remote) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.906223] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:114:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_shared<<expression error> >()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.906347] (bot_remote) StderrLine: {'line': b'  114 |    auto result = \x1b[01;31m\x1b[Kstd::make_shared<bot_msgs::action::BotTask::Result>()\x1b[m\x1b[K;\n'}
+[7.906459] (bot_remote) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[7.906567] (bot_remote) StderrLine: {'line': b'\n'}
+[7.906650] (bot_remote) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:77\x1b[m\x1b[K,\n'}
+[7.906740] (bot_remote) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153\x1b[m\x1b[K,\n'}
+[7.906814] (bot_remote) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:1\x1b[m\x1b[K:\n'}
+[7.906883] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.906955] (bot_remote) StderrLine: {'line': b'  875 |     \x1b[01;36m\x1b[Kmake_shared\x1b[m\x1b[K(_Args&&... __args)\n'}
+[7.907024] (bot_remote) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.907102] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:875:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[7.907172] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:114:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.907242] (bot_remote) StderrLine: {'line': b'  114 |    auto result = \x1b[01;31m\x1b[Kstd::make_shared<bot_msgs::action::BotTask::Result>()\x1b[m\x1b[K;\n'}
+[7.907311] (bot_remote) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[7.907379] (bot_remote) StderrLine: {'line': b'\n'}
+[7.920373] (bot_remote) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:116:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_handle\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[7.920593] (bot_remote) StderrLine: {'line': b'  116 |     \x1b[01;31m\x1b[Kgoal_handle\x1b[m\x1b[K->succeed(result);\n'}
+[7.920679] (bot_remote) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.936578] (-) TimerEvent: {}
+[8.037112] (-) TimerEvent: {}
+[8.137501] (-) TimerEvent: {}
+[8.237840] (-) TimerEvent: {}
+[8.338170] (-) TimerEvent: {}
+[8.438501] (-) TimerEvent: {}
+[8.538826] (-) TimerEvent: {}
+[8.639206] (-) TimerEvent: {}
+[8.739567] (-) TimerEvent: {}
+[8.839908] (-) TimerEvent: {}
+[8.940287] (-) TimerEvent: {}
+[9.040582] (-) TimerEvent: {}
+[9.140936] (-) TimerEvent: {}
+[9.241302] (-) TimerEvent: {}
+[9.341687] (-) TimerEvent: {}
+[9.442100] (-) TimerEvent: {}
+[9.542440] (-) TimerEvent: {}
+[9.642889] (-) TimerEvent: {}
+[9.743376] (-) TimerEvent: {}
+[9.844029] (-) TimerEvent: {}
+[9.944967] (-) TimerEvent: {}
+[10.045662] (-) TimerEvent: {}
+[10.146366] (-) TimerEvent: {}
+[10.247135] (-) TimerEvent: {}
+[10.347985] (-) TimerEvent: {}
+[10.448435] (-) TimerEvent: {}
+[10.548875] (-) TimerEvent: {}
+[10.649232] (-) TimerEvent: {}
+[10.749574] (-) TimerEvent: {}
+[10.849995] (-) TimerEvent: {}
+[10.950411] (-) TimerEvent: {}
+[11.050881] (-) TimerEvent: {}
+[11.151325] (-) TimerEvent: {}
+[11.251795] (-) TimerEvent: {}
+[11.352168] (-) TimerEvent: {}
+[11.452637] (-) TimerEvent: {}
+[11.524688] (bot_remote) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/task_server.dir/build.make:76: CMakeFiles/task_server.dir/src/task_server.cpp.o] Error 1\n'}
+[11.525000] (bot_remote) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/task_server.dir/all] Error 2\n'}
+[11.525160] (bot_remote) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.528693] (bot_remote) CommandEnded: {'returncode': 2}
+[11.552782] (-) TimerEvent: {}
+[11.654104] (-) TimerEvent: {}
+[11.689441] (bot_remote) JobEnded: {'identifier': 'bot_remote', 'rc': 2}
+[11.700800] (-) EventReactorShutdown: {}

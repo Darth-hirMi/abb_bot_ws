@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:19 (rodidl_generate_interfaces):
+  Unknown CMake command "rodidl_generate_interfaces".
+
+[0m
+gmake: *** [Makefile:226: cmake_check_build_system] Error 1

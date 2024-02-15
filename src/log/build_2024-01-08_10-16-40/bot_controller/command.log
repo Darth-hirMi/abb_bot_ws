@@ -1,0 +1,6 @@
+Invoking command in '/home/mihir/abb_bot_ws/src/build/bot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mihir/abb_bot_ws/src/bot_controller -DCMAKE_INSTALL_PREFIX=/home/mihir/abb_bot_ws/src/install/bot_controller
+Invoked command in '/home/mihir/abb_bot_ws/src/build/bot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mihir/abb_bot_ws/src/bot_controller -DCMAKE_INSTALL_PREFIX=/home/mihir/abb_bot_ws/src/install/bot_controller
+Invoking command in '/home/mihir/abb_bot_ws/src/build/bot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/src/build/bot_controller -- -j8 -l8
+Invoked command in '/home/mihir/abb_bot_ws/src/build/bot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/src/build/bot_controller -- -j8 -l8
+Invoking command in '/home/mihir/abb_bot_ws/src/build/bot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mihir/abb_bot_ws/src/build/bot_controller
+Invoked command in '/home/mihir/abb_bot_ws/src/build/bot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mihir/abb_bot_ws/src/build/bot_controller

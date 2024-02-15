@@ -1,0 +1,42 @@
+[0.373s] Invoking command in '/home/mihir/abb_bot_ws/build/abb_bot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mihir/abb_bot_ws/src/abb_bot_msgs -DCMAKE_INSTALL_PREFIX=/home/mihir/abb_bot_ws/install/abb_bot_msgs
+[0.573s] -- The C compiler identification is GNU 11.4.0
+[0.752s] -- The CXX compiler identification is GNU 11.4.0
+[0.768s] -- Detecting C compiler ABI info
+[0.882s] -- Detecting C compiler ABI info - done
+[0.890s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.890s] -- Detecting C compile features
+[0.890s] -- Detecting C compile features - done
+[0.895s] -- Detecting CXX compiler ABI info
+[1.041s] -- Detecting CXX compiler ABI info - done
+[1.048s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.050s] -- Detecting CXX compile features
+[1.050s] -- Detecting CXX compile features - done
+[1.054s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.401s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.588s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.688s] -- Added test 'lint_cmake' to check CMake code style
+[1.690s] -- Added test 'xmllint' to check XML markup files
+[1.692s] -- Configuring done
+[1.698s] -- Generating done
+[1.699s] -- Build files have been written to: /home/mihir/abb_bot_ws/build/abb_bot_msgs
+[1.711s] Invoked command in '/home/mihir/abb_bot_ws/build/abb_bot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mihir/abb_bot_ws/src/abb_bot_msgs -DCMAKE_INSTALL_PREFIX=/home/mihir/abb_bot_ws/install/abb_bot_msgs
+[1.715s] Invoking command in '/home/mihir/abb_bot_ws/build/abb_bot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/abb_bot_msgs -- -j8 -l8
+[1.870s] Invoked command in '/home/mihir/abb_bot_ws/build/abb_bot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/abb_bot_msgs -- -j8 -l8
+[1.905s] Invoking command in '/home/mihir/abb_bot_ws/build/abb_bot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mihir/abb_bot_ws/build/abb_bot_msgs
+[1.919s] -- Install configuration: ""
+[1.919s] -- Installing: /home/mihir/abb_bot_ws/install/abb_bot_msgs/share/ament_index/resource_index/package_run_dependencies/abb_bot_msgs
+[1.919s] -- Installing: /home/mihir/abb_bot_ws/install/abb_bot_msgs/share/ament_index/resource_index/parent_prefix_path/abb_bot_msgs
+[1.919s] -- Installing: /home/mihir/abb_bot_ws/install/abb_bot_msgs/share/abb_bot_msgs/environment/ament_prefix_path.sh
+[1.919s] -- Installing: /home/mihir/abb_bot_ws/install/abb_bot_msgs/share/abb_bot_msgs/environment/ament_prefix_path.dsv
+[1.919s] -- Installing: /home/mihir/abb_bot_ws/install/abb_bot_msgs/share/abb_bot_msgs/environment/path.sh
+[1.919s] -- Installing: /home/mihir/abb_bot_ws/install/abb_bot_msgs/share/abb_bot_msgs/environment/path.dsv
+[1.920s] -- Installing: /home/mihir/abb_bot_ws/install/abb_bot_msgs/share/abb_bot_msgs/local_setup.bash
+[1.920s] -- Installing: /home/mihir/abb_bot_ws/install/abb_bot_msgs/share/abb_bot_msgs/local_setup.sh
+[1.920s] -- Installing: /home/mihir/abb_bot_ws/install/abb_bot_msgs/share/abb_bot_msgs/local_setup.zsh
+[1.920s] -- Installing: /home/mihir/abb_bot_ws/install/abb_bot_msgs/share/abb_bot_msgs/local_setup.dsv
+[1.920s] -- Installing: /home/mihir/abb_bot_ws/install/abb_bot_msgs/share/abb_bot_msgs/package.dsv
+[1.920s] -- Installing: /home/mihir/abb_bot_ws/install/abb_bot_msgs/share/ament_index/resource_index/packages/abb_bot_msgs
+[1.920s] -- Installing: /home/mihir/abb_bot_ws/install/abb_bot_msgs/share/abb_bot_msgs/cmake/abb_bot_msgsConfig.cmake
+[1.921s] -- Installing: /home/mihir/abb_bot_ws/install/abb_bot_msgs/share/abb_bot_msgs/cmake/abb_bot_msgsConfig-version.cmake
+[1.921s] -- Installing: /home/mihir/abb_bot_ws/install/abb_bot_msgs/share/abb_bot_msgs/package.xml
+[1.943s] Invoked command in '/home/mihir/abb_bot_ws/build/abb_bot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mihir/abb_bot_ws/build/abb_bot_msgs

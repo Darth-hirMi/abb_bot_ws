@@ -1,0 +1,30 @@
+[0.049s] Invoking command in '/home/mihir/abb_bot_ws/build/bot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/bot_description -- -j8 -l8
+[0.074s] Invoked command in '/home/mihir/abb_bot_ws/build/bot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/bot_description -- -j8 -l8
+[0.094s] Invoking command in '/home/mihir/abb_bot_ws/build/bot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mihir/abb_bot_ws/build/bot_description
+[0.099s] -- Install configuration: ""
+[0.099s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes
+[0.100s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes/Base_link.STL
+[0.100s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes/Link_5.STL
+[0.100s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes/Link_3.STL
+[0.100s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes/Link_1.STL
+[0.100s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes/Link_2.STL
+[0.100s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes/Link_6.STL
+[0.100s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/meshes/Link_4.STL
+[0.100s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/urdf
+[0.100s] -- Installing: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/urdf/bot.urdf.xacro
+[0.100s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/ament_index/resource_index/package_run_dependencies/bot_description
+[0.100s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/ament_index/resource_index/parent_prefix_path/bot_description
+[0.101s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/environment/ament_prefix_path.sh
+[0.101s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/environment/ament_prefix_path.dsv
+[0.101s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/environment/path.sh
+[0.101s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/environment/path.dsv
+[0.102s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/local_setup.bash
+[0.102s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/local_setup.sh
+[0.102s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/local_setup.zsh
+[0.102s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/local_setup.dsv
+[0.102s] -- Installing: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/package.dsv
+[0.103s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/ament_index/resource_index/packages/bot_description
+[0.103s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/cmake/bot_descriptionConfig.cmake
+[0.103s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/cmake/bot_descriptionConfig-version.cmake
+[0.103s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_description/share/bot_description/package.xml
+[0.103s] Invoked command in '/home/mihir/abb_bot_ws/build/bot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mihir/abb_bot_ws/build/bot_description

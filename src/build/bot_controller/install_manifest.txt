@@ -1,0 +1,15 @@
+/home/mihir/abb_bot_ws/src/install/bot_controller/share/ament_index/resource_index/package_run_dependencies/bot_controller
+/home/mihir/abb_bot_ws/src/install/bot_controller/share/ament_index/resource_index/parent_prefix_path/bot_controller
+/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/environment/ament_prefix_path.sh
+/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/environment/ament_prefix_path.dsv
+/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/environment/path.sh
+/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/environment/path.dsv
+/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/local_setup.bash
+/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/local_setup.sh
+/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/local_setup.zsh
+/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/local_setup.dsv
+/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/package.dsv
+/home/mihir/abb_bot_ws/src/install/bot_controller/share/ament_index/resource_index/packages/bot_controller
+/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/cmake/bot_controllerConfig.cmake
+/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/cmake/bot_controllerConfig-version.cmake
+/home/mihir/abb_bot_ws/src/install/bot_controller/share/bot_controller/package.xml

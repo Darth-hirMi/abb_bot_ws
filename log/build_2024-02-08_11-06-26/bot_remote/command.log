@@ -1,0 +1,2 @@
+Invoking command in '/home/mihir/abb_bot_ws/build/bot_remote': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/bot_remote -- -j8 -l8
+Invoked command in '/home/mihir/abb_bot_ws/build/bot_remote' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/bot_remote -- -j8 -l8

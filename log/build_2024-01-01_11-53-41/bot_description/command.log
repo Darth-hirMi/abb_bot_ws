@@ -1,0 +1,4 @@
+Invoking command in '/home/mihir/abb_bot_ws/build/bot_description': CMAKE_PREFIX_PATH=/home/mihir/abb_bot_ws/install/bot_description:/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/bot_description -- -j8 -l8
+Invoked command in '/home/mihir/abb_bot_ws/build/bot_description' returned '0': CMAKE_PREFIX_PATH=/home/mihir/abb_bot_ws/install/bot_description:/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/bot_description -- -j8 -l8
+Invoking command in '/home/mihir/abb_bot_ws/build/bot_description': CMAKE_PREFIX_PATH=/home/mihir/abb_bot_ws/install/bot_description:/opt/ros/humble /usr/bin/cmake --install /home/mihir/abb_bot_ws/build/bot_description
+Invoked command in '/home/mihir/abb_bot_ws/build/bot_description' returned '0': CMAKE_PREFIX_PATH=/home/mihir/abb_bot_ws/install/bot_description:/opt/ros/humble /usr/bin/cmake --install /home/mihir/abb_bot_ws/build/bot_description

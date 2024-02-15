@@ -1,0 +1,6 @@
+{
+  "package_name": "bot_msgs",
+  "non_idl_tuples": [
+    "/home/mihir/abb_bot_ws/src/bot_msgs:action/BotTask.action"
+  ]
+}

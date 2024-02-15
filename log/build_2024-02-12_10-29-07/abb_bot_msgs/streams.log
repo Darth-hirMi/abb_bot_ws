@@ -1,0 +1,10 @@
+[0.265s] Invoking command in '/home/mihir/abb_bot_ws/build/abb_bot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/abb_bot_msgs -- -j8 -l8
+[0.291s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.454s] [31mCMake Error at CMakeLists.txt:14 (rosidl_generate_interfaces):
+[0.454s]   Unknown CMake command "rosidl_generate_interfaces".
+[0.454s] 
+[0.454s] [0m
+[0.454s] -- Configuring incomplete, errors occurred!
+[0.455s] See also "/home/mihir/abb_bot_ws/build/abb_bot_msgs/CMakeFiles/CMakeOutput.log".
+[0.455s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[0.645s] Invoked command in '/home/mihir/abb_bot_ws/build/abb_bot_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/abb_bot_msgs -- -j8 -l8

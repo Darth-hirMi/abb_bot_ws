@@ -1,0 +1,145 @@
+[0.113s] Invoking command in '/home/mihir/abb_bot_ws/build/bot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/bot_msgs -- -j8 -l8
+[0.197s] [  3%] Built target bot_msgs__cpp
+[0.210s] [ 12%] Built target bot_msgs__rosidl_generator_c
+[0.227s] [ 12%] Built target ament_cmake_python_copy_bot_msgs
+[0.264s] [ 22%] Built target bot_msgs__rosidl_typesupport_introspection_c
+[0.284s] [ 35%] Built target bot_msgs__rosidl_typesupport_introspection_cpp
+[0.298s] [ 41%] Built target bot_msgs__rosidl_typesupport_cpp
+[0.298s] [ 54%] Built target bot_msgs__rosidl_typesupport_fastrtps_cpp
+[0.298s] [ 61%] Built target bot_msgs__rosidl_typesupport_c
+[0.299s] [ 70%] Built target bot_msgs__rosidl_typesupport_fastrtps_c
+[0.315s] [ 70%] Built target bot_msgs
+[0.333s] [ 74%] Built target bot_msgs__py
+[0.354s] [ 80%] Built target bot_msgs__rosidl_generator_py
+[0.380s] [ 87%] Built target bot_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.382s] [ 93%] Built target bot_msgs__rosidl_typesupport_c__pyext
+[0.386s] [100%] Built target bot_msgs__rosidl_typesupport_introspection_c__pyext
+[0.527s] running egg_info
+[0.528s] writing bot_msgs.egg-info/PKG-INFO
+[0.528s] writing dependency_links to bot_msgs.egg-info/dependency_links.txt
+[0.528s] writing top-level names to bot_msgs.egg-info/top_level.txt
+[0.530s] reading manifest file 'bot_msgs.egg-info/SOURCES.txt'
+[0.530s] writing manifest file 'bot_msgs.egg-info/SOURCES.txt'
+[0.566s] [100%] Built target ament_cmake_python_build_bot_msgs_egg
+[0.788s] Invoked command in '/home/mihir/abb_bot_ws/build/bot_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/bot_msgs -- -j8 -l8
+[0.888s] Invoking command in '/home/mihir/abb_bot_ws/build/bot_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mihir/abb_bot_ws/build/bot_msgs
+[0.895s] -- Install configuration: ""
+[0.895s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/ament_index/resource_index/rosidl_interfaces/bot_msgs
+[0.895s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs
+[0.895s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/msg
+[0.895s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.895s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action
+[0.895s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/bot_task.h
+[0.895s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail
+[0.896s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__type_support.h
+[0.896s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__functions.h
+[0.896s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__functions.c
+[0.896s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__struct.h
+[0.896s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/environment/library_path.sh
+[0.896s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/environment/library_path.dsv
+[0.896s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/lib/libbot_msgs__rosidl_generator_c.so
+[0.896s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs
+[0.896s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/msg
+[0.896s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.896s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action
+[0.896s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail
+[0.896s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__rosidl_typesupport_fastrtps_c.h
+[0.897s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/lib/libbot_msgs__rosidl_typesupport_fastrtps_c.so
+[0.897s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs
+[0.897s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action
+[0.897s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/bot_task.hpp
+[0.897s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail
+[0.897s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__struct.hpp
+[0.897s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__traits.hpp
+[0.897s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__builder.hpp
+[0.898s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs
+[0.898s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/msg
+[0.898s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.898s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action
+[0.898s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail
+[0.898s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/dds_fastrtps
+[0.898s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__rosidl_typesupport_fastrtps_cpp.hpp
+[0.898s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/lib/libbot_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.898s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs
+[0.898s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/msg
+[0.899s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.899s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action
+[0.899s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail
+[0.899s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__type_support.c
+[0.899s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__rosidl_typesupport_introspection_c.h
+[0.899s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/lib/libbot_msgs__rosidl_typesupport_introspection_c.so
+[0.899s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/lib/libbot_msgs__rosidl_typesupport_c.so
+[0.899s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs
+[0.899s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action
+[0.899s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail
+[0.900s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__type_support.cpp
+[0.900s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/include/bot_msgs/bot_msgs/action/detail/bot_task__rosidl_typesupport_introspection_cpp.hpp
+[0.900s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/lib/libbot_msgs__rosidl_typesupport_introspection_cpp.so
+[0.900s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/lib/libbot_msgs__rosidl_typesupport_cpp.so
+[0.900s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/environment/pythonpath.sh
+[0.900s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/environment/pythonpath.dsv
+[0.900s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs-0.0.0-py3.10.egg-info
+[0.900s] -- Installing: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.900s] -- Installing: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[0.900s] -- Installing: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[0.900s] -- Installing: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.900s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs
+[0.900s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/_bot_msgs_s.ep.rosidl_typesupport_c.c
+[0.900s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/bot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.900s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/bot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.901s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/action
+[0.901s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/action/_bot_task.py
+[0.901s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/action/_bot_task_s.c
+[0.901s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/action/__init__.py
+[0.901s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/_bot_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.901s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/libbot_msgs__rosidl_generator_py.so
+[0.901s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/bot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.901s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/__init__.py
+[0.901s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/_bot_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[0.928s] Listing '/home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs'...
+[0.928s] Listing '/home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/action'...
+[0.932s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/bot_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.933s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/bot_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.934s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages/bot_msgs/bot_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.934s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/lib/libbot_msgs__rosidl_generator_py.so
+[0.934s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/action/BotTask.idl
+[0.934s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/action/BotTask.action
+[0.934s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/ament_index/resource_index/package_run_dependencies/bot_msgs
+[0.935s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/ament_index/resource_index/parent_prefix_path/bot_msgs
+[0.935s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/environment/ament_prefix_path.sh
+[0.935s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/environment/ament_prefix_path.dsv
+[0.935s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/environment/path.sh
+[0.935s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/environment/path.dsv
+[0.935s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/local_setup.bash
+[0.935s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/local_setup.sh
+[0.935s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/local_setup.zsh
+[0.935s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/local_setup.dsv
+[0.936s] -- Installing: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/package.dsv
+[0.936s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/ament_index/resource_index/packages/bot_msgs
+[0.936s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_generator_cExport.cmake
+[0.936s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.936s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[0.936s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.936s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_generator_cppExport.cmake
+[0.936s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.936s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.936s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/bot_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.936s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/bot_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.936s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/bot_msgs__rosidl_typesupport_cExport.cmake
+[0.937s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/bot_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.937s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/bot_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.937s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/bot_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.937s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/bot_msgs__rosidl_typesupport_cppExport.cmake
+[0.937s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/bot_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.937s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_generator_pyExport.cmake
+[0.937s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/export_bot_msgs__rosidl_generator_pyExport-noconfig.cmake
+[0.937s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/rosidl_cmake-extras.cmake
+[0.937s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.937s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.937s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.937s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.937s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.937s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.937s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/bot_msgsConfig.cmake
+[0.937s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake/bot_msgsConfig-version.cmake
+[0.938s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/package.xml

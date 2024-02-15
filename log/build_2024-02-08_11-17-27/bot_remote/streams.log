@@ -1,0 +1,343 @@
+[0.082s] Invoking command in '/home/mihir/abb_bot_ws/build/bot_remote': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/bot_remote -- -j8 -l8
+[0.158s] [35m[1mConsolidate compiler generated dependencies of target task_server[0m
+[0.201s] [ 50%] Built target task_server_node
+[0.220s] [ 75%] [32mBuilding CXX object CMakeFiles/task_server.dir/src/task_server.cpp.o[0m
+[7.456s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:25:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kbot_msgs[m[K’ was not declared in this scope
+[7.456s]    25 |   rclcpp_action::Server<[01;31m[Kbot_msgs[m[K::action::BotTask>::SharedPtr action_server_;
+[7.457s]       |                         [01;31m[K^~~~~~~~[m[K
+[7.457s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:25:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.457s]    25 |   rclcpp_action::Server<bot_msgs::action::BotTask[01;31m[K>[m[K::SharedPtr action_server_;
+[7.457s]       |                                                  [01;31m[K^[m[K
+[7.457s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:25:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[7.457s]    25 |   rclcpp_action::Server<bot_msgs::action::BotTask>::[01;31m[KSharedPtr[m[K action_server_;
+[7.457s]       |                                                     [01;31m[K^~~~~~~~~[m[K
+[7.457s]       |                                                              [32m[K;[m[K
+[7.462s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:25:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_server_[m[K’ does not name a type; did you mean ‘[01m[Krcl_action_server_t[m[K’?
+[7.462s]    25 | rclcpp_action::Server<bot_msgs::action::BotTask>::SharedPtr [01;31m[Kaction_server_[m[K;
+[7.462s]       |                                                             [01;31m[K^~~~~~~~~~~~~~[m[K
+[7.463s]       |                                                             [32m[Krcl_action_server_t[m[K
+[7.463s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:27:111:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[7.463s]    27 | clcpp_action::GoalUUID& uuid, std::shared_ptr<const bot_msgs[01;31m[K::[m[Kaction::BotTask::Goal> goal)
+[7.463s]       |                                                             [01;31m[K^~[m[K
+[7.463s] 
+[7.463s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:27:134:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.463s]    27 | UID& uuid, std::shared_ptr<const bot_msgs::action::BotTask::Goal[01;31m[K>[m[K goal)
+[7.463s]       |                                                                 [01;31m[K^[m[K
+[7.463s] 
+[7.464s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:27:111:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[7.464s]    27 | clcpp_action::GoalUUID& uuid, std::shared_ptr<const bot_msgs[01;31m[K::[m[Kaction::BotTask::Goal> goal)
+[7.464s]       |                                                             [01;31m[K^~[m[K
+[7.464s] 
+[7.464s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:27:134:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.464s]    27 | UID& uuid, std::shared_ptr<const bot_msgs::action::BotTask::Goal[01;31m[K>[m[K goal)
+[7.464s]       |                                                                 [01;31m[K^[m[K
+[7.464s] 
+[7.464s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:27:111:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[7.464s]    27 | clcpp_action::GoalUUID& uuid, std::shared_ptr<const bot_msgs[01;31m[K::[m[Kaction::BotTask::Goal> goal)
+[7.465s]       |                                                             [01;31m[K^~[m[K
+[7.465s] 
+[7.465s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:27:134:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.465s]    27 | UID& uuid, std::shared_ptr<const bot_msgs::action::BotTask::Goal[01;31m[K>[m[K goal)
+[7.465s]       |                                                                 [01;31m[K^[m[K
+[7.465s] 
+[7.465s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:27:81:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[7.465s]    27 | lResponse goalCallback(const rclcpp_action::GoalUUID& uuid, [01;31m[Kstd[m[K::shared_ptr<const bot_msgs::action::BotTask::Goal> goal)
+[7.465s]       |                                                             [01;31m[K^~~[m[K
+[7.466s] 
+[7.466s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:27:111:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[7.466s]    27 | clcpp_action::GoalUUID& uuid, std::shared_ptr<const bot_msgs[01;31m[K::[m[Kaction::BotTask::Goal> goal)
+[7.466s]       |                                                             [01;31m[K^~[m[K
+[7.466s] 
+[7.466s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:27:97:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[7.466s]    27 | llback(const rclcpp_action::GoalUUID& uuid, std::shared_ptr<[01;31m[Kconst[m[K bot_msgs::action::BotTask::Goal> goal)
+[7.466s]       |                                                             [01;31m[K^~~~~[m[K
+[7.466s] 
+[7.466s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:27:97:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[Kconst[m[K’
+[7.467s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:27:81:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[7.467s]    27 | lResponse goalCallback(const rclcpp_action::GoalUUID& uuid, [01;31m[Kstd[m[K::shared_ptr<const bot_msgs::action::BotTask::Goal> goal)
+[7.467s]       |                                                             [01;31m[K^~~[m[K
+[7.467s] 
+[7.472s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:102:[m[K [01;31m[Kerror: [m[K‘[01m[Kbot_msgs[m[K’ was not declared in this scope
+[7.472s]    34 | lback(const std::shared_ptr<rclcpp_action::ServerGoalHandle<[01;31m[Kbot_msgs[m[K::action::BotTask>> goal_handle)
+[7.472s]       |                                                             [01;31m[K^~~~~~~~[m[K
+[7.472s] 
+[7.472s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:127:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.472s]    34 | tr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask[01;31m[K>>[m[K goal_handle)
+[7.472s]       |                                                             [01;31m[K^~[m[K
+[7.473s] 
+[7.479s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:102:[m[K [01;31m[Kerror: [m[K‘[01m[Kbot_msgs[m[K’ was not declared in this scope
+[7.479s]    34 | lback(const std::shared_ptr<rclcpp_action::ServerGoalHandle<[01;31m[Kbot_msgs[m[K::action::BotTask>> goal_handle)
+[7.479s]       |                                                             [01;31m[K^~~~~~~~[m[K
+[7.479s] 
+[7.480s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:127:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.480s]    34 | tr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask[01;31m[K>>[m[K goal_handle)
+[7.480s]       |                                                             [01;31m[K^~[m[K
+[7.480s] 
+[7.486s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:102:[m[K [01;31m[Kerror: [m[K‘[01m[Kbot_msgs[m[K’ was not declared in this scope
+[7.486s]    34 | lback(const std::shared_ptr<rclcpp_action::ServerGoalHandle<[01;31m[Kbot_msgs[m[K::action::BotTask>> goal_handle)
+[7.486s]       |                                                             [01;31m[K^~~~~~~~[m[K
+[7.486s] 
+[7.487s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:127:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.487s]    34 | tr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask[01;31m[K>>[m[K goal_handle)
+[7.487s]       |                                                             [01;31m[K^~[m[K
+[7.487s] 
+[7.487s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:70:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[7.487s]    34 | action::CancelResponse cancelCallback(const std::shared_ptr<[01;31m[Krclcpp_action[m[K::ServerGoalHandle<bot_msgs::action::BotTask>> goal_handle)
+[7.487s]       |                                                             [01;31m[K^~~~~~~~~~~~~[m[K
+[7.487s] 
+[7.494s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:102:[m[K [01;31m[Kerror: [m[K‘[01m[Kbot_msgs[m[K’ was not declared in this scope
+[7.494s]    34 | lback(const std::shared_ptr<rclcpp_action::ServerGoalHandle<[01;31m[Kbot_msgs[m[K::action::BotTask>> goal_handle)
+[7.494s]       |                                                             [01;31m[K^~~~~~~~[m[K
+[7.494s] 
+[7.494s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:130:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.494s]    34 | rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask>> [01;31m[Kgoal_handle[m[K)
+[7.495s]       |                                                             [01;31m[K^~~~~~~~~~~[m[K
+[7.495s] 
+[7.495s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:130:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.495s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:130:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.495s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:54:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[7.495s]    34 |   rclcpp_action::CancelResponse cancelCallback(const [01;31m[Kstd[m[K::shared_ptr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask>> goal_handle)
+[7.495s]       |                                                      [01;31m[K^~~[m[K
+[7.495s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:130:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[Kgoal_handle[m[K’
+[7.495s]    34 | rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask>> [01;31m[Kgoal_handle[m[K)
+[7.496s]       |                                                             [01;31m[K^~~~~~~~~~~[m[K
+[7.496s] 
+[7.496s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:130:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[Kgoal_handle[m[K’
+[7.496s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:34:48:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[7.496s]    34 |   rclcpp_action::CancelResponse cancelCallback([01;31m[Kconst[m[K std::shared_ptr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask>> goal_handle)
+[7.496s]       |                                                [01;31m[K^~~~~[m[K
+[7.504s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kbot_msgs[m[K’ was not declared in this scope
+[7.504s]    46 | lback(const std::shared_ptr<rclcpp_action::ServerGoalHandle<[01;31m[Kbot_msgs[m[K::action::BotTask>> goal_handle)
+[7.504s]       |                                                             [01;31m[K^~~~~~~~[m[K
+[7.504s] 
+[7.505s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:104:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.505s]    46 | tr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask[01;31m[K>>[m[K goal_handle)
+[7.505s]       |                                                             [01;31m[K^~[m[K
+[7.505s] 
+[7.512s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kbot_msgs[m[K’ was not declared in this scope
+[7.512s]    46 | lback(const std::shared_ptr<rclcpp_action::ServerGoalHandle<[01;31m[Kbot_msgs[m[K::action::BotTask>> goal_handle)
+[7.513s]       |                                                             [01;31m[K^~~~~~~~[m[K
+[7.513s] 
+[7.513s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:104:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.513s]    46 | tr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask[01;31m[K>>[m[K goal_handle)
+[7.513s]       |                                                             [01;31m[K^~[m[K
+[7.513s] 
+[7.520s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kbot_msgs[m[K’ was not declared in this scope
+[7.520s]    46 | lback(const std::shared_ptr<rclcpp_action::ServerGoalHandle<[01;31m[Kbot_msgs[m[K::action::BotTask>> goal_handle)
+[7.520s]       |                                                             [01;31m[K^~~~~~~~[m[K
+[7.520s] 
+[7.520s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:104:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.521s]    46 | tr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask[01;31m[K>>[m[K goal_handle)
+[7.521s]       |                                                             [01;31m[K^~[m[K
+[7.521s] 
+[7.521s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:47:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[7.521s]    46 |   void acceptedCallback(const std::shared_ptr<[01;31m[Krclcpp_action[m[K::ServerGoalHandle<bot_msgs::action::BotTask>> goal_handle)
+[7.521s]       |                                               [01;31m[K^~~~~~~~~~~~~[m[K
+[7.528s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kbot_msgs[m[K’ was not declared in this scope
+[7.528s]    46 | lback(const std::shared_ptr<rclcpp_action::ServerGoalHandle<[01;31m[Kbot_msgs[m[K::action::BotTask>> goal_handle)
+[7.529s]       |                                                             [01;31m[K^~~~~~~~[m[K
+[7.529s] 
+[7.529s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:107:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.529s]    46 | rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask>> [01;31m[Kgoal_handle[m[K)
+[7.529s]       |                                                             [01;31m[K^~~~~~~~~~~[m[K
+[7.529s] 
+[7.529s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:107:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.529s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:107:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.529s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:31:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[7.530s]    46 |   void acceptedCallback(const [01;31m[Kstd[m[K::shared_ptr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask>> goal_handle)
+[7.530s]       |                               [01;31m[K^~~[m[K
+[7.530s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:107:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[Kgoal_handle[m[K’
+[7.530s]    46 | rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask>> [01;31m[Kgoal_handle[m[K)
+[7.530s]       |                                                             [01;31m[K^~~~~~~~~~~[m[K
+[7.530s] 
+[7.530s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:107:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[Kgoal_handle[m[K’
+[7.530s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:46:25:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[7.530s]    46 |   void acceptedCallback([01;31m[Kconst[m[K std::shared_ptr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask>> goal_handle)
+[7.530s]       |                         [01;31m[K^~~~~[m[K
+[7.537s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kbot_msgs[m[K’ was not declared in this scope
+[7.537s]    52 | ecute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<[01;31m[Kbot_msgs[m[K::action::BotTask>> goal_handle)
+[7.537s]       |                                                             [01;31m[K^~~~~~~~[m[K
+[7.537s] 
+[7.537s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:95:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.537s]    52 | tr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask[01;31m[K>>[m[K goal_handle)
+[7.537s]       |                                                             [01;31m[K^~[m[K
+[7.538s] 
+[7.544s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kbot_msgs[m[K’ was not declared in this scope
+[7.544s]    52 | ecute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<[01;31m[Kbot_msgs[m[K::action::BotTask>> goal_handle)
+[7.544s]       |                                                             [01;31m[K^~~~~~~~[m[K
+[7.544s] 
+[7.544s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:95:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.544s]    52 | tr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask[01;31m[K>>[m[K goal_handle)
+[7.544s]       |                                                             [01;31m[K^~[m[K
+[7.545s] 
+[7.551s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kbot_msgs[m[K’ was not declared in this scope
+[7.551s]    52 | ecute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<[01;31m[Kbot_msgs[m[K::action::BotTask>> goal_handle)
+[7.551s]       |                                                             [01;31m[K^~~~~~~~[m[K
+[7.551s] 
+[7.551s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:95:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.552s]    52 | tr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask[01;31m[K>>[m[K goal_handle)
+[7.552s]       |                                                             [01;31m[K^~[m[K
+[7.552s] 
+[7.552s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:38:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[7.552s]    52 |   void execute(const std::shared_ptr<[01;31m[Krclcpp_action[m[K::ServerGoalHandle<bot_msgs::action::BotTask>> goal_handle)
+[7.552s]       |                                      [01;31m[K^~~~~~~~~~~~~[m[K
+[7.560s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kbot_msgs[m[K’ was not declared in this scope
+[7.560s]    52 | ecute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<[01;31m[Kbot_msgs[m[K::action::BotTask>> goal_handle)
+[7.560s]       |                                                             [01;31m[K^~~~~~~~[m[K
+[7.560s] 
+[7.560s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.560s]    52 | rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask>> [01;31m[Kgoal_handle[m[K)
+[7.560s]       |                                                             [01;31m[K^~~~~~~~~~~[m[K
+[7.560s] 
+[7.561s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.561s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.561s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:22:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[7.561s]    52 |   void execute(const [01;31m[Kstd[m[K::shared_ptr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask>> goal_handle)
+[7.561s]       |                      [01;31m[K^~~[m[K
+[7.561s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:98:[m[K [01;31m[Kerror: [m[Kmissing template arguments before ‘[01m[Kgoal_handle[m[K’
+[7.561s]    52 | rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask>> [01;31m[Kgoal_handle[m[K)
+[7.561s]       |                                                             [01;31m[K^~~~~~~~~~~[m[K
+[7.561s] 
+[7.561s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:98:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[Kgoal_handle[m[K’
+[7.562s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:52:16:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+[7.562s]    52 |   void execute([01;31m[Kconst[m[K std::shared_ptr<rclcpp_action::ServerGoalHandle<bot_msgs::action::BotTask>> goal_handle)
+[7.562s]       |                [01;31m[K^~~~~[m[K
+[7.573s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:[m[K In constructor ‘[01m[Kbot_remote::TaskServer::TaskServer(const rclcpp::NodeOptions&)[m[K’:
+[7.573s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:18:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_server_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_action_server_t[m[K’?
+[7.573s]    18 |     [01;31m[Kaction_server_[m[K = rclcpp_action::create_server<bot_msgs::action::BotTask>(
+[7.573s]       |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[7.573s]       |     [32m[Krcl_action_server_t[m[K
+[7.580s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:18:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kbot_msgs[m[K’ was not declared in this scope
+[7.580s]    18 |     action_server_ = rclcpp_action::create_server<[01;31m[Kbot_msgs[m[K::action::BotTask>(
+[7.580s]       |                                                   [01;31m[K^~~~~~~~[m[K
+[7.580s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:18:37:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[7.580s]    18 |     action_server_ = rclcpp_action::[01;31m[Kcreate_server<bot_msgs::action::BotTask>[m[K(
+[7.581s]       |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.593s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:18:77:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_server<<expression error> >(bot_remote::TaskServer*, const char [12], std::_Bind_helper<false, rclcpp_action::GoalResponse (bot_remote::TaskServer::*)(...), bot_remote::TaskServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type, std::_Bind_helper<false, rclcpp_action::CancelResponse (bot_remote::TaskServer::*)(...), bot_remote::TaskServer*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, void (bot_remote::TaskServer::*)(...), bot_remote::TaskServer*, const std::_Placeholder<1>&>::type)[m[K’
+[7.593s]    18 | tion_server_ = [01;31m[Krclcpp_action::create_server<bot_msgs::action::BotTask>([m[K
+[7.593s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[7.593s] 
+[7.593s]    19 | [01;31m[K  this, "task_server", std::bind(&TaskServer::goalCallback, this, _1, _2),[m[K
+[7.594s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.594s] 
+[7.594s]    20 | [01;31m[K  std::bind(&TaskServer::cancelCallback, this, _1),[m[K
+[7.594s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                    
+[7.594s] 
+[7.594s]    21 | [01;31m[K  std::bind(&TaskServer::acceptedCallback, this, _1))[m[K;
+[7.594s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                  
+[7.594s] 
+[7.594s] In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+[7.594s]                  from [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:2[m[K:
+[7.594s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[7.594s]    58 | [01;36m[Kcreate_server[m[K(
+[7.594s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[7.595s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.595s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:18:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.595s]    18 | tion_server_ = [01;31m[Krclcpp_action::create_server<bot_msgs::action::BotTask>([m[K
+[7.595s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[7.595s] 
+[7.595s]    19 | [01;31m[K  this, "task_server", std::bind(&TaskServer::goalCallback, this, _1, _2),[m[K
+[7.595s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.595s] 
+[7.595s]    20 | [01;31m[K  std::bind(&TaskServer::cancelCallback, this, _1),[m[K
+[7.595s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                    
+[7.595s] 
+[7.595s]    21 | [01;31m[K  std::bind(&TaskServer::acceptedCallback, this, _1))[m[K;
+[7.596s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                  
+[7.596s] 
+[7.596s] In file included from [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+[7.596s]                  from [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:2[m[K:
+[7.596s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::create_server(NodeT, const string&, typename rclcpp_action::Server<ActionT>::GoalCallback, typename rclcpp_action::Server<ActionT>::CancelCallback, typename rclcpp_action::Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[7.596s]   132 | [01;36m[Kcreate_server[m[K(
+[7.596s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[7.596s] [01m[K/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.596s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:18:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.597s]    18 | tion_server_ = [01;31m[Krclcpp_action::create_server<bot_msgs::action::BotTask>([m[K
+[7.597s]       |                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[7.597s] 
+[7.597s]    19 | [01;31m[K  this, "task_server", std::bind(&TaskServer::goalCallback, this, _1, _2),[m[K
+[7.597s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.597s] 
+[7.597s]    20 | [01;31m[K  std::bind(&TaskServer::cancelCallback, this, _1),[m[K
+[7.597s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                    
+[7.597s] 
+[7.597s]    21 | [01;31m[K  std::bind(&TaskServer::acceptedCallback, this, _1))[m[K;
+[7.597s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                  
+[7.597s] 
+[7.603s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[7.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[7.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.603s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.604s]                  from [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:1[m[K:
+[7.604s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse bot_remote::TaskServer::goalCallback(...)[m[K’:
+[7.604s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:29:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal[m[K’ was not declared in this scope
+[7.604s]    29 | LCPP_INFO(get_logger(), "Received goal request with id %d", [01;31m[Kgoal[m[K->task_number);
+[7.604s]       |                                                             [01;31m[K^~~~[m[K
+[7.604s] 
+[7.605s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:27:75:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.605s]    27 | n::GoalResponse goalCallback([01;35m[Kconst rclcpp_action::GoalUUID& uuid[m[K, std::shared_ptr<const bot_msgs::action::BotTask::Goal> goal)
+[7.605s]       |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[7.605s] 
+[7.616s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:[m[K In member function ‘[01m[Kvoid bot_remote::TaskServer::acceptedCallback(...)[m[K’:
+[7.616s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:49:61:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_handle[m[K’ was not declared in this scope
+[7.616s]    49 |     std::thread{ std::bind(&TaskServer::execute, this, _1), [01;31m[Kgoal_handle[m[K }.detach();
+[7.616s]       |                                                             [01;31m[K^~~~~~~~~~~[m[K
+[7.616s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:49:73:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::thread::thread(<brace-enclosed initializer list>)[m[K’
+[7.616s]    49 | ead{ std::bind(&TaskServer::execute, this, _1), goal_handle [01;31m[K}[m[K.detach();
+[7.616s]       |                                                             [01;31m[K^[m[K
+[7.616s] 
+[7.616s] In file included from [01m[K/usr/include/c++/11/future:48[m[K,
+[7.616s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+[7.617s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.617s]                  from [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:1[m[K:
+[7.617s] [01m[K/usr/include/c++/11/bits/std_thread.h:127:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Callable, class ... _Args, class> std::thread::thread(_Callable&&, _Args&& ...)[m[K’
+[7.617s]   127 |       [01;36m[Kthread[m[K(_Callable&& __f, _Args&&... __args)
+[7.617s]       |       [01;36m[K^~~~~~[m[K
+[7.617s] [01m[K/usr/include/c++/11/bits/std_thread.h:127:7:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.617s] [01m[K/usr/include/c++/11/bits/std_thread.h:157:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::thread::thread(std::thread&&)[m[K’
+[7.617s]   157 |     [01;36m[Kthread[m[K(thread&& __t) noexcept
+[7.617s]       |     [01;36m[K^~~~~~[m[K
+[7.617s] [01m[K/usr/include/c++/11/bits/std_thread.h:157:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[7.617s] [01m[K/usr/include/c++/11/bits/std_thread.h:121:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::thread::thread()[m[K’
+[7.618s]   121 |     [01;36m[Kthread[m[K() noexcept = default;
+[7.618s]       |     [01;36m[K^~~~~~[m[K
+[7.618s] [01m[K/usr/include/c++/11/bits/std_thread.h:121:5:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[7.628s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:[m[K In member function ‘[01m[Kvoid bot_remote::TaskServer::execute(...)[m[K’:
+[7.628s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:61:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_handle[m[K’ was not declared in this scope
+[7.628s]    61 |     if([01;31m[Kgoal_handle[m[K->get_goal()->task_number == 0) //home position
+[7.628s]       |        [01;31m[K^~~~~~~~~~~[m[K
+[7.642s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:114:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kbot_msgs[m[K’ was not declared in this scope
+[7.642s]   114 |     auto result = std::make_shared<[01;31m[Kbot_msgs[m[K::action::BotTask::Result>();
+[7.642s]       |                                    [01;31m[K^~~~~~~~[m[K
+[7.642s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:114:24:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[7.642s]   114 |     auto result = std::[01;31m[Kmake_shared<bot_msgs::action::BotTask::Result>[m[K();
+[7.642s]       |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.642s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:114:70:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[7.643s]   114 |    auto result = [01;31m[Kstd::make_shared<bot_msgs::action::BotTask::Result>()[m[K;
+[7.643s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[7.643s] 
+[7.643s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[7.643s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[7.643s]                  from [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:1[m[K:
+[7.643s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[7.643s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[7.643s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[7.643s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.643s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:114:70:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.643s]   114 |    auto result = [01;31m[Kstd::make_shared<bot_msgs::action::BotTask::Result>()[m[K;
+[7.644s]       |                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[7.644s] 
+[7.657s] [01m[K/home/mihir/abb_bot_ws/src/bot_remote/src/task_server.cpp:116:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_handle[m[K’ was not declared in this scope
+[7.657s]   116 |     [01;31m[Kgoal_handle[m[K->succeed(result);
+[7.657s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[11.261s] gmake[2]: *** [CMakeFiles/task_server.dir/build.make:76: CMakeFiles/task_server.dir/src/task_server.cpp.o] Error 1
+[11.261s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/task_server.dir/all] Error 2
+[11.261s] gmake: *** [Makefile:146: all] Error 2
+[11.265s] Invoked command in '/home/mihir/abb_bot_ws/build/bot_remote' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/bot_remote -- -j8 -l8

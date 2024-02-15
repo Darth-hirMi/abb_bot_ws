@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.000096] (bot_description) JobQueued: {'identifier': 'bot_description', 'dependencies': OrderedDict()}
+[0.000120] (bot_description) JobStarted: {'identifier': 'bot_description'}
+[0.099517] (-) TimerEvent: {}
+[0.199751] (-) TimerEvent: {}
+[0.299982] (-) TimerEvent: {}
+[0.400205] (-) TimerEvent: {}
+[0.500497] (-) TimerEvent: {}
+[0.600736] (-) TimerEvent: {}
+[0.700966] (-) TimerEvent: {}
+[0.801248] (-) TimerEvent: {}
+[0.835409] (bot_description) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/bot_description', 'build', '--build-base', '/home/mihir/abb_bot_ws/build/bot_description/build', 'install', '--record', '/home/mihir/abb_bot_ws/build/bot_description/install.log', '--single-version-externally-managed'], 'cwd': '/home/mihir/abb_bot_ws/src/bot_description', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'mihir', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mihir', 'OLDPWD': '/home/mihir/abb_bot_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1641', 'SYSTEMD_EXEC_PID': '2109', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '3984', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'mihir', 'JOURNAL_STREAM': '8:37040', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mihir', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/mihir/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mihir-Inspiron-7501:@/tmp/.ICE-unix/2089,unix/mihir-Inspiron-7501:/tmp/.ICE-unix/2089', 'INVOCATION_ID': '571efe41fc164a9695f7795666eeb379', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:c66929aa-1b10-4dad-8054-6ba38c47b1ee', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mihir/abb_bot_ws/build/bot_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mihir/abb_bot_ws/build/bot_description/prefix_override:/home/mihir/abb_bot_ws/install/bot_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.901360] (-) TimerEvent: {}
+[1.001623] (-) TimerEvent: {}
+[1.045357] (bot_description) StdoutLine: {'line': b'running egg_info\n'}
+[1.045882] (bot_description) StdoutLine: {'line': b'creating ../../build/bot_description/bot_description.egg-info\n'}
+[1.046085] (bot_description) StdoutLine: {'line': b'writing ../../build/bot_description/bot_description.egg-info/PKG-INFO\n'}
+[1.046263] (bot_description) StdoutLine: {'line': b'writing dependency_links to ../../build/bot_description/bot_description.egg-info/dependency_links.txt\n'}
+[1.046420] (bot_description) StdoutLine: {'line': b'writing entry points to ../../build/bot_description/bot_description.egg-info/entry_points.txt\n'}
+[1.046497] (bot_description) StdoutLine: {'line': b'writing requirements to ../../build/bot_description/bot_description.egg-info/requires.txt\n'}
+[1.046723] (bot_description) StdoutLine: {'line': b'writing top-level names to ../../build/bot_description/bot_description.egg-info/top_level.txt\n'}
+[1.046986] (bot_description) StdoutLine: {'line': b"writing manifest file '../../build/bot_description/bot_description.egg-info/SOURCES.txt'\n"}
+[1.048733] (bot_description) StdoutLine: {'line': b"reading manifest file '../../build/bot_description/bot_description.egg-info/SOURCES.txt'\n"}
+[1.049291] (bot_description) StdoutLine: {'line': b"writing manifest file '../../build/bot_description/bot_description.egg-info/SOURCES.txt'\n"}
+[1.049472] (bot_description) StdoutLine: {'line': b'running build\n'}
+[1.049674] (bot_description) StdoutLine: {'line': b'running build_py\n'}
+[1.049769] (bot_description) StdoutLine: {'line': b'creating /home/mihir/abb_bot_ws/build/bot_description/build\n'}
+[1.049838] (bot_description) StdoutLine: {'line': b'creating /home/mihir/abb_bot_ws/build/bot_description/build/lib\n'}
+[1.049891] (bot_description) StdoutLine: {'line': b'creating /home/mihir/abb_bot_ws/build/bot_description/build/lib/bot_description\n'}
+[1.049961] (bot_description) StdoutLine: {'line': b'copying bot_description/__init__.py -> /home/mihir/abb_bot_ws/build/bot_description/build/lib/bot_description\n'}
+[1.050007] (bot_description) StdoutLine: {'line': b'running install\n'}
+[1.055705] (bot_description) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.055820] (bot_description) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.056150] (bot_description) StdoutLine: {'line': b'running install_lib\n'}
+[1.056750] (bot_description) StdoutLine: {'line': b'creating /home/mihir/abb_bot_ws/install/bot_description/lib/python3.10/site-packages/bot_description\n'}
+[1.056865] (bot_description) StdoutLine: {'line': b'copying /home/mihir/abb_bot_ws/build/bot_description/build/lib/bot_description/__init__.py -> /home/mihir/abb_bot_ws/install/bot_description/lib/python3.10/site-packages/bot_description\n'}
+[1.057128] (bot_description) StdoutLine: {'line': b'byte-compiling /home/mihir/abb_bot_ws/install/bot_description/lib/python3.10/site-packages/bot_description/__init__.py to __init__.cpython-310.pyc\n'}
+[1.057239] (bot_description) StdoutLine: {'line': b'running install_data\n'}
+[1.057712] (bot_description) StdoutLine: {'line': b'creating /home/mihir/abb_bot_ws/install/bot_description/share/ament_index\n'}
+[1.057771] (bot_description) StdoutLine: {'line': b'creating /home/mihir/abb_bot_ws/install/bot_description/share/ament_index/resource_index\n'}
+[1.057845] (bot_description) StdoutLine: {'line': b'creating /home/mihir/abb_bot_ws/install/bot_description/share/ament_index/resource_index/packages\n'}
+[1.057923] (bot_description) StdoutLine: {'line': b'copying resource/bot_description -> /home/mihir/abb_bot_ws/install/bot_description/share/ament_index/resource_index/packages\n'}
+[1.057974] (bot_description) StdoutLine: {'line': b'copying package.xml -> /home/mihir/abb_bot_ws/install/bot_description/share/bot_description\n'}
+[1.058039] (bot_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.059902] (bot_description) StdoutLine: {'line': b'Copying ../../build/bot_description/bot_description.egg-info to /home/mihir/abb_bot_ws/install/bot_description/lib/python3.10/site-packages/bot_description-0.0.0-py3.10.egg-info\n'}
+[1.060433] (bot_description) StdoutLine: {'line': b'running install_scripts\n'}
+[1.076465] (bot_description) StdoutLine: {'line': b"writing list of installed files to '/home/mihir/abb_bot_ws/build/bot_description/install.log'\n"}
+[1.099524] (bot_description) CommandEnded: {'returncode': 0}
+[1.101811] (-) TimerEvent: {}
+[1.153199] (bot_description) JobEnded: {'identifier': 'bot_description', 'rc': 0}
+[1.153789] (-) EventReactorShutdown: {}

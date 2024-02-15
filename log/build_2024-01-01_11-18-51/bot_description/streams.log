@@ -1,0 +1,35 @@
+[0.836s] Invoking command in '/home/mihir/abb_bot_ws/src/bot_description': PYTHONPATH=/home/mihir/abb_bot_ws/build/bot_description/prefix_override:/home/mihir/abb_bot_ws/install/bot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bot_description build --build-base /home/mihir/abb_bot_ws/build/bot_description/build install --record /home/mihir/abb_bot_ws/build/bot_description/install.log --single-version-externally-managed
+[1.045s] running egg_info
+[1.046s] creating ../../build/bot_description/bot_description.egg-info
+[1.046s] writing ../../build/bot_description/bot_description.egg-info/PKG-INFO
+[1.046s] writing dependency_links to ../../build/bot_description/bot_description.egg-info/dependency_links.txt
+[1.046s] writing entry points to ../../build/bot_description/bot_description.egg-info/entry_points.txt
+[1.046s] writing requirements to ../../build/bot_description/bot_description.egg-info/requires.txt
+[1.047s] writing top-level names to ../../build/bot_description/bot_description.egg-info/top_level.txt
+[1.047s] writing manifest file '../../build/bot_description/bot_description.egg-info/SOURCES.txt'
+[1.049s] reading manifest file '../../build/bot_description/bot_description.egg-info/SOURCES.txt'
+[1.049s] writing manifest file '../../build/bot_description/bot_description.egg-info/SOURCES.txt'
+[1.049s] running build
+[1.050s] running build_py
+[1.050s] creating /home/mihir/abb_bot_ws/build/bot_description/build
+[1.050s] creating /home/mihir/abb_bot_ws/build/bot_description/build/lib
+[1.050s] creating /home/mihir/abb_bot_ws/build/bot_description/build/lib/bot_description
+[1.050s] copying bot_description/__init__.py -> /home/mihir/abb_bot_ws/build/bot_description/build/lib/bot_description
+[1.050s] running install
+[1.056s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.056s]   warnings.warn(
+[1.056s] running install_lib
+[1.057s] creating /home/mihir/abb_bot_ws/install/bot_description/lib/python3.10/site-packages/bot_description
+[1.057s] copying /home/mihir/abb_bot_ws/build/bot_description/build/lib/bot_description/__init__.py -> /home/mihir/abb_bot_ws/install/bot_description/lib/python3.10/site-packages/bot_description
+[1.057s] byte-compiling /home/mihir/abb_bot_ws/install/bot_description/lib/python3.10/site-packages/bot_description/__init__.py to __init__.cpython-310.pyc
+[1.057s] running install_data
+[1.058s] creating /home/mihir/abb_bot_ws/install/bot_description/share/ament_index
+[1.058s] creating /home/mihir/abb_bot_ws/install/bot_description/share/ament_index/resource_index
+[1.058s] creating /home/mihir/abb_bot_ws/install/bot_description/share/ament_index/resource_index/packages
+[1.058s] copying resource/bot_description -> /home/mihir/abb_bot_ws/install/bot_description/share/ament_index/resource_index/packages
+[1.058s] copying package.xml -> /home/mihir/abb_bot_ws/install/bot_description/share/bot_description
+[1.058s] running install_egg_info
+[1.060s] Copying ../../build/bot_description/bot_description.egg-info to /home/mihir/abb_bot_ws/install/bot_description/lib/python3.10/site-packages/bot_description-0.0.0-py3.10.egg-info
+[1.060s] running install_scripts
+[1.077s] writing list of installed files to '/home/mihir/abb_bot_ws/build/bot_description/install.log'
+[1.100s] Invoked command in '/home/mihir/abb_bot_ws/src/bot_description' returned '0': PYTHONPATH=/home/mihir/abb_bot_ws/build/bot_description/prefix_override:/home/mihir/abb_bot_ws/install/bot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/bot_description build --build-base /home/mihir/abb_bot_ws/build/bot_description/build install --record /home/mihir/abb_bot_ws/build/bot_description/install.log --single-version-externally-managed

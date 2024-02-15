@@ -1,0 +1,30 @@
+[0.055s] Invoking command in '/home/mihir/abb_bot_ws/build/bot_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/bot_moveit -- -j8 -l8
+[0.086s] Invoked command in '/home/mihir/abb_bot_ws/build/bot_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/bot_moveit -- -j8 -l8
+[0.111s] Invoking command in '/home/mihir/abb_bot_ws/build/bot_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mihir/abb_bot_ws/build/bot_moveit
+[0.117s] -- Install configuration: ""
+[0.118s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/launch
+[0.119s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/launch/moveit.launch.py
+[0.119s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/config
+[0.119s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/config/kinematics.yaml
+[0.119s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/config/pilz_cartesian_limits.yaml
+[0.119s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/config/moveit.rviz
+[0.119s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/config/joint_limits.yaml
+[0.119s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/config/initial_positions.yaml
+[0.119s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/config/bot.srdf
+[0.119s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/config/moveit_controllers.yaml
+[0.119s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/ament_index/resource_index/package_run_dependencies/bot_moveit
+[0.119s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/ament_index/resource_index/parent_prefix_path/bot_moveit
+[0.119s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/environment/ament_prefix_path.sh
+[0.119s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/environment/ament_prefix_path.dsv
+[0.119s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/environment/path.sh
+[0.119s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/environment/path.dsv
+[0.119s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/local_setup.bash
+[0.119s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/local_setup.sh
+[0.119s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/local_setup.zsh
+[0.120s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/local_setup.dsv
+[0.120s] -- Installing: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/package.dsv
+[0.120s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/ament_index/resource_index/packages/bot_moveit
+[0.120s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/cmake/bot_moveitConfig.cmake
+[0.120s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/cmake/bot_moveitConfig-version.cmake
+[0.120s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_moveit/share/bot_moveit/package.xml
+[0.121s] Invoked command in '/home/mihir/abb_bot_ws/build/bot_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mihir/abb_bot_ws/build/bot_moveit

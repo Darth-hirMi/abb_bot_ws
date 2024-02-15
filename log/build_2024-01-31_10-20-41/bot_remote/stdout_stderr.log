@@ -1,0 +1,63 @@
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found bot_msgs: 0.0.0 (/home/mihir/abb_bot_ws/install/bot_msgs/share/bot_msgs/cmake)
+-- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)
+-- Found rclcpp_lifecycle: 16.0.7 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mihir/abb_bot_ws/src/bot_remote/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mihir/abb_bot_ws/build/bot_remote
+[ 50%] [32mBuilding CXX object CMakeFiles/task_server.dir/src/task_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/task_server_node.dir/rclcpp_components/node_main_task_server_node.cpp.o[0m
+[ 75%] [32m[1mLinking CXX shared library libtask_server.so[0m
+[ 75%] Built target task_server
+[100%] [32m[1mLinking CXX executable task_server_node[0m
+[100%] Built target task_server_node
+-- Install configuration: ""
+-- Installing: /home/mihir/abb_bot_ws/install/bot_remote/lib/bot_remote/task_server_node
+-- Set runtime path of "/home/mihir/abb_bot_ws/install/bot_remote/lib/bot_remote/task_server_node" to ""
+-- Installing: /home/mihir/abb_bot_ws/install/bot_remote/lib/libtask_server.so
+-- Set runtime path of "/home/mihir/abb_bot_ws/install/bot_remote/lib/libtask_server.so" to ""
+-- Installing: /home/mihir/abb_bot_ws/install/bot_remote/share/ament_index/resource_index/package_run_dependencies/bot_remote
+-- Installing: /home/mihir/abb_bot_ws/install/bot_remote/share/ament_index/resource_index/parent_prefix_path/bot_remote
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_remote/share/bot_remote/environment/ament_prefix_path.sh
+-- Installing: /home/mihir/abb_bot_ws/install/bot_remote/share/bot_remote/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_remote/share/bot_remote/environment/path.sh
+-- Installing: /home/mihir/abb_bot_ws/install/bot_remote/share/bot_remote/environment/path.dsv
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_remote/share/bot_remote/local_setup.bash
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_remote/share/bot_remote/local_setup.sh
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_remote/share/bot_remote/local_setup.zsh
+-- Installing: /home/mihir/abb_bot_ws/install/bot_remote/share/bot_remote/local_setup.dsv
+-- Installing: /home/mihir/abb_bot_ws/install/bot_remote/share/bot_remote/package.dsv
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_remote/share/ament_index/resource_index/packages/bot_remote
+-- Installing: /home/mihir/abb_bot_ws/install/bot_remote/share/ament_index/resource_index/rclcpp_components/bot_remote
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_remote/share/bot_remote/cmake/bot_remoteConfig.cmake
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_remote/share/bot_remote/cmake/bot_remoteConfig-version.cmake
+-- Installing: /home/mihir/abb_bot_ws/install/bot_remote/share/bot_remote/package.xml

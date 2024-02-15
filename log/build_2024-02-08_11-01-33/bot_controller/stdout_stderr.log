@@ -1,0 +1,29 @@
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mihir/abb_bot_ws/build/bot_controller
+-- Install configuration: ""
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/config
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/config/bot_controllers.yaml
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/launch
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/launch/controller.launch.py
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/ament_index/resource_index/package_run_dependencies/bot_controller
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/ament_index/resource_index/parent_prefix_path/bot_controller
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/environment/ament_prefix_path.sh
+-- Installing: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/environment/path.sh
+-- Installing: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/environment/path.dsv
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/local_setup.bash
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/local_setup.sh
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/local_setup.zsh
+-- Installing: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/local_setup.dsv
+-- Installing: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/package.dsv
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/ament_index/resource_index/packages/bot_controller
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/cmake/bot_controllerConfig.cmake
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/cmake/bot_controllerConfig-version.cmake
+-- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/package.xml

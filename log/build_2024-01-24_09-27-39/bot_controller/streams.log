@@ -1,0 +1,24 @@
+[0.869s] Invoking command in '/home/mihir/abb_bot_ws/build/bot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/bot_controller -- -j8 -l8
+[1.071s] Invoked command in '/home/mihir/abb_bot_ws/build/bot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mihir/abb_bot_ws/build/bot_controller -- -j8 -l8
+[1.243s] Invoking command in '/home/mihir/abb_bot_ws/build/bot_controller': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mihir/abb_bot_ws/build/bot_controller
+[1.284s] -- Install configuration: ""
+[1.287s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/config
+[1.288s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/config/bot_controllers.yaml
+[1.289s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/launch
+[1.291s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/launch/controller.launch.py
+[1.291s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/ament_index/resource_index/package_run_dependencies/bot_controller
+[1.291s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/ament_index/resource_index/parent_prefix_path/bot_controller
+[1.292s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/environment/ament_prefix_path.sh
+[1.292s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/environment/ament_prefix_path.dsv
+[1.292s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/environment/path.sh
+[1.292s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/environment/path.dsv
+[1.293s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/local_setup.bash
+[1.293s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/local_setup.sh
+[1.293s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/local_setup.zsh
+[1.294s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/local_setup.dsv
+[1.294s] -- Installing: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/package.dsv
+[1.294s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/ament_index/resource_index/packages/bot_controller
+[1.294s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/cmake/bot_controllerConfig.cmake
+[1.295s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/cmake/bot_controllerConfig-version.cmake
+[1.296s] -- Up-to-date: /home/mihir/abb_bot_ws/install/bot_controller/share/bot_controller/package.xml
+[1.337s] Invoked command in '/home/mihir/abb_bot_ws/build/bot_controller' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mihir/abb_bot_ws/build/bot_controller

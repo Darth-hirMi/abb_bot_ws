@@ -1,0 +1,8 @@
+setup.py
+bot_msgs/__init__.py
+bot_msgs.egg-info/PKG-INFO
+bot_msgs.egg-info/SOURCES.txt
+bot_msgs.egg-info/dependency_links.txt
+bot_msgs.egg-info/top_level.txt
+bot_msgs/action/__init__.py
+bot_msgs/action/_bot_task.py

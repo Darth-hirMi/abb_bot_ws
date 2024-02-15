@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<robot name = "ABB_bot">
+
+    <group name = "arm">
+        <joint name = "virtual_joint"/>
+        <joint name = "joint_1"/>
+        <joint name = "joint_2"/>
+        <joint name = "joint_3"/>
+        <joint name = "joint_4"/>
+        <joint name = "joint_5"/>
+        <joint name = "joint_6"/>
+    </group>
+
+    <group_state name = "position_0" group = "arm">
+        <joint name = "joint_1" value = "0"/>
+        <joint name = "joint_2" value = "0"/>
+        <joint name = "joint_3" value = "0"/>
+        <joint name = "joint_4" value = "0"/>
+        <joint name = "joint_5" value = "0"/>
+        <joint name = "joint_6" value = "0"/>
+    </group_state>
+
+    <group_state name = "position_1" group = "arm">
+        <joint name = "joint_1" value = "0"/>
+        <joint name = "joint_2" value = "0"/>
+        <joint name = "joint_3" value = "-1.529"/>
+        <joint name = "joint_4" value = "0"/>
+        <joint name = "joint_5" value = "0"/>
+        <joint name = "joint_6" value = "0"/>
+    </group_state>
+
+    <group_state name = "position_2" group = "arm">
+        <joint name = "joint_1" value = "0"/>
+        <joint name = "joint_2" value = "0.530"/>
+        <joint name = "joint_3" value = "-0.562"/>
+        <joint name = "joint_4" value = "0"/>
+        <joint name = "joint_5" value = "0"/>
+        <joint name = "joint_6" value = "0"/>
+    </group_state>
+
+    <disable_collisions link1 = "" link2 = "" reason = ""/>
+    <disable_collisions link1 = "base_link" link2 = "link_2" reason = "Never"/>
+    <disable_collisions link1 = "base_link" link2 = "link_1" reason = "Adjacent"/>
+
+    <disable_collisions link1 = "link_1" link2 = "link_2" reason = "Adjacent"/>
+    <disable_collisions link1 = "link_1" link2 = "link_3" reason = "Never"/>
+    <disable_collisions link1 = "link_1" link2 = "link_6" reason = "never"/>
+    <disable_collisions link1 = "link_1" link2 = "end_effector" reason = "Never"/>
+
+    <disable_collisions link1 = "link_2" link2 = "link_3" reason = "Adjacent"/>
+    <disable_collisions link1 = "link_2" link2 = "link_4" reason = "Never"/>
+    <disable_collisions link1 = "link_2" link2 = "link_5" reason = "Never"/>
+    <disable_collisions link1 = "link_2" link2 = "link_6" reason = "Never"/>
+    <disable_collisions link1 = "link_2" link2 = "end_effector" reason = "Never"/>
+
+    <disable_collisions link1 = "link_3" link2 = "link_4" reason = "Adjacent"/>
+    <disable_collisions link1 = "link_3" link2 = "link_5" reason = "Never"/>
+    <disable_collisions link1 = "link_3" link2 = "link_6" reason = "Never"/>
+    <disable_collisions link1 = "link_3" link2 = "end_effector" reason = "Never"/>
+
+    <disable_collisions link1 = "link_4" link2 = "link_5" reason = "Adjacent"/>
+    <disable_collisions link1 = "link_4" link2 = "link_6" reason = "Never"/>
+    <disable_collisions link1 = "link_4" link2 = "end_effector" reason = "Never"/>
+
+    <disable_collisions link1 = "link_5" link2 = "link_6" reason = "Adjacent"/>
+    <disable_collisions link1 = "link_5" link2 = "end_effector" reason = "Never"/>
+
+    <disable_collisions link1 = "link_6" link2 = "end_effector" reason = "Adjacent"/>
+
+</robot>

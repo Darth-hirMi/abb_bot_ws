@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from bot_msgs/action/BotTask.action
+// generated code does not contain a copyright notice
+
+
+module bot_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal")
+    struct BotTask_Goal {
+      int32 task_munber;
+    };
+    @verbatim (language="comment", text=
+      "Result")
+    struct BotTask_Result {
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "Feedback")
+    struct BotTask_Feedback {
+      int32 percentage;
+    };
+  };
+};
