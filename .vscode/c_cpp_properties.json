@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/mihir/abb_bot_ws/install/bot_msgs/include/**",
+        "/home/mihir/abb_bot_ws/install/abbbot_msgs/include/**",
+        "/home/mihir/abb_bot_ws/install/abb_bot_msgs/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/mihir/abb_bot_ws/src/bot_controller/include/**",
+        "/home/mihir/abb_bot_ws/src/bot_description/include/**",
+        "/home/mihir/abb_bot_ws/src/bot_moveit/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

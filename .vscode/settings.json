@@ -1,0 +1,18 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages",
+        "/home/mihir/abb_bot_ws/install/bot_description/lib/python3.10/site-packages",
+        "/home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages",
+        "/home/mihir/abb_bot_ws/install/abb_bot_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/mihir/abb_bot_ws/install/bot_msgs/local/lib/python3.10/dist-packages",
+        "/home/mihir/abb_bot_ws/install/bot_description/lib/python3.10/site-packages",
+        "/home/mihir/abb_bot_ws/install/abbbot_msgs/local/lib/python3.10/dist-packages",
+        "/home/mihir/abb_bot_ws/install/abb_bot_msgs/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}
